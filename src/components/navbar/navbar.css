@@ -1,0 +1,38 @@
+.navbar{
+     width: 100%;
+     height: 4rem;
+     margin: 0 auto;
+     padding: 2rem 8rem;
+     position: fixed;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+     background-color: #0c0c0c;
+     /* background-color: #000; */
+
+     border-bottom: 4px solid #b6b4b4;
+     /* border-top: 4px solid #b6b4b4; */
+
+     z-index: 2;
+
+     font-family: 'Elsie Swash Caps', cursive;
+     font-family: 'Orbitron', sans-serif;    
+}
+
+.navbar .right-part h1{
+     color: #fff;
+}
+
+.navbar  .left-part ul{
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+}
+
+.navbar  .left-part ul li{
+     color: #FFF;
+     list-style: none;
+     font-size: 1.5rem;
+}

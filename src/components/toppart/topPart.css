@@ -1,0 +1,61 @@
+.top-part{
+     width: 100%;
+     margin: 0 auto;
+     padding: 0 8rem;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     display: flex;
+     justify-content: space-between;
+
+     background-color: rgb(104, 100, 100);
+     opacity: .8;
+
+     font-family: 'Elsie Swash Caps', cursive;
+font-family: 'Orbitron', sans-serif;
+}
+
+.top-part .left-part{
+     display: flex;
+     flex-direction: column;
+     margin-top: 5rem;
+     
+
+     color: #000;
+}
+
+.top-part .left-part h2{
+     font-size: 3.0rem;
+}
+
+.top-part .left-part h6{
+     font-size: 1.6rem;
+}
+
+.top-part .left-part ul{
+     display: flex;
+     gap: 2rem;
+}
+
+.top-part .left-part ul li{
+     font-size: 1.4rem;
+     list-style: none;
+     
+}
+
+.top-part .left-part ul li a{
+     color: #dddada;
+     text-decoration: none;
+     font-weight: 600;
+}
+
+.top-part .right-part{
+     display: flex;
+     margin-top: 5rem;
+}
+
+.top-part .right-part img{
+     border-radius: 50%;
+
+     width: 20rem;
+     height: 20rem;
+}
