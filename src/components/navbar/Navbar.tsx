@@ -13,11 +13,6 @@ function Navbar(){
                          <h1>Portifólio</h1>
                     </div>
                     
-                    
-             
-
-              
-
                     <div className="left-part">
                               <ul>
                                    <li>Sobre mim</li>

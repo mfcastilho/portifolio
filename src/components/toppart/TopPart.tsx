@@ -19,8 +19,8 @@ function TopPart(){
                          <h2>Olá, meu nome é Mario Frederico</h2>
                          <h6>Sou Desenvovledor Web</h6>
                          <ul>
-                              <li><a href="">Github</a></li>
-                              <li><a href="">Linkedin</a></li>
+                              <li><a href="https://github.com/mfcastilho" target="_blank">Github</a></li>
+                              <li><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></li>
                               <li><a href="">Instagram</a></li>
                               <li><a href="">Currículo</a></li>
                          </ul>
