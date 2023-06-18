@@ -1,17 +1,17 @@
 .top-part{
      width: 100%;
-     height: 100vh;
+     height: 60vh;
      margin: 0 auto;
      padding: 0 14rem;
      padding-top: 5rem;
      padding-bottom: 5rem;
      display: flex;
      justify-content: space-between;
+     
 
      /* background-color: rgb(104, 100, 100); */
      /* opacity: .8; */
 
-     font-family: 'Elsie Swash Caps', cursive;
      font-family: 'IBM Plex Mono', monospace;   
 }
 
@@ -28,6 +28,7 @@
 .top-part .left-part h2{
      font-size: 3.0rem;
      margin-bottom: 2rem;
+     
 }
 
 .top-part .left-part h3{
@@ -64,8 +65,8 @@
 .top-part .right-part img{
      border-radius: 50%;
 
-     width: 25rem;
-     height: 25rem;
+     width: 30rem;
+     height: 30rem;
 
-     margin-right: 2rem;
+     margin-right: 5rem;
 }

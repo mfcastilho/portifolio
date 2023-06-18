@@ -22,17 +22,17 @@ function Navbar(){
                     <div className="right-part">
                          <a href="https://github.com/mfcastilho" target="_blank">
                               <div className="social-media-icons-box">
-                              <img src="../../../public/github-icon.svg" alt="" className="github-icon" />   
+                              <img src="../../../public/icons/github-icon.svg" alt="" className="github-icon" />   
                               </div>
                          </a>
                          <a href="https://www.linkedin.com/in/mariofrederico/" target="_blank">
                               <div className="social-media-icons-box">
-                              <img src="../../../public/linkedin-icon.svg" alt="" className="github-icon" />   
+                              <img src="../../../public/icons/linkedin-icon.svg" alt="" className="github-icon" />   
                               </div>
                          </a>
                          <a href="https://www.instagram.com/mffredericofrederico/" target="_blank">
                               <div className="social-media-icons-box">
-                              <img src="../../../public/instagram-icon.svg" alt="" className="github-icon" />   
+                              <img src="../../../public/icons/instagram-icon.svg" alt="" className="github-icon" />   
                               </div>
                          </a>                           
                     </div>
