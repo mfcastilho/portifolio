@@ -11,14 +11,16 @@
 
 body{
 
-     background-image: url("./../public/background3.png");
+     /* background-image: url("./../public/background3.png");
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center;
      background-attachment: fixed;
-     height: 200vh;
+     height: 200vh; */
 
-     background-color: #0C0C0C;
+     background-color: #080808;
 
      margin: 0 auto;
+
+     
 }
