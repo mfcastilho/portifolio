@@ -14,7 +14,7 @@ function Navbar(){
                          <ul>
                               <li ><a href="#about-me">Sobre mim</a></li>
                               <li><a href="#skills">Skills</a></li>
-                              <li><a href="#training">Formação</a></li>
+                              <li><a href="#academic-background">Formação</a></li>
                               <li ><a href="#projects">Projetos</a></li>
                          </ul>
                     </div>

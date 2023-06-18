@@ -11,7 +11,7 @@ function AboutMe(){
                >
                     <h2>Sobre mim</h2>
                     <div className="about-me-description">
-                         <p>" Formado em análise e desenvolvimento de sistemas, atualmente sou aluno da formação One - Oracle Next Education fornecido pela Alura em parceria com a Oracle. Os tópicos abordados pela formação são: Css, Javascript e Java. "</p>
+                         <p>" Com graduação em análise e desenvolvimento de sistemas( Unicesumar ) e formado no curso de desenvolvimento web fullstack( Digital House ), atualmente sou aluno dos programas One Oracle Next Education( Especialização em Frontend ), fornecido pela Alura em parceria com a Oracle e do 1000 bolsas iFood, fornecido pela Cubos Academy em parceria com o iFood "</p>
                     </div>
                </motion.div>
           </div>
