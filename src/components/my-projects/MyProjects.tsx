@@ -3,7 +3,7 @@ import "./myProjects.css";
 
 function MyProjects(){
      return(
-          <div className="my-projects">
+          <div className="my-projects" id="my-projects">
                <h2>Meus projetos</h2>
                <div className="my-projects-container">
                     
@@ -36,8 +36,8 @@ function MyProjects(){
                          <div className="used-project-tech">
                               <p>TypeScript</p> *
                               <p>ReactJs</p> *
-                              <p>React Router Dom</p> *
                               <p>Hooks</p> *
+                              <p>React Router Dom</p> *
                               <p>Axios</p> 
                          </div>
                     </a>

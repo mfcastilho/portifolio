@@ -26,14 +26,14 @@ function AcademicBackground(){
                     <div className="academic-background-icons-box">
                          <img src="../../../public/icons/alura-icon.svg" alt="" title="" />
                          <div className="academic-background-description">
-                              <p>Desenvolvimento Frontend</p>
+                              <p>One Oracle Next Education (Especialização Frontend)</p>
                               <p>Em andamento - Outubro de 2023</p>
                          </div>
                     </div>
                     <div className="academic-background-icons-box">
                          <img src="../../../public/icons/cubos-academy-icon-.svg" alt="" title="" />
                          <div className="academic-background-description">
-                              <p>Desenvolvimento Backend</p>
+                              <p>1000 Bolsas iFood  (Especialização Backend)</p>
                               <p>Em andamento - Outubro de 2023</p>
                          </div>
                     </div>
