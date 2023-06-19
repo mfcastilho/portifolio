@@ -20,12 +20,6 @@ function TopPart(){
                          <h3>Olá, meu nome é</h3>
                          <h2>Mario Frederico Castilho</h2>
                          <h6>Sou um desenvolvedor web apaixonado por tecnologia que sempre busca aprender e aprimorar as aptidões.</h6>
-                         {/* <ul>
-                              <li><a href="https://github.com/mfcastilho" target="_blank">Github</a></li>
-                              <li><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></li>
-                              <li><a href="">Instagram</a></li>
-                              <li><a href="">Currículo</a></li>
-                         </ul> */}
                     </div>
                </motion.div>
                <div className="right-part">

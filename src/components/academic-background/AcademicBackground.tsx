@@ -4,7 +4,7 @@ import "./academicBackground.css";
 function AcademicBackground(){
      
      return(
-          <div className="academic-background">
+          <div className="academic-background" id="training">
                <h2>Formação</h2>
                <div className="academic-background-container">
                     
