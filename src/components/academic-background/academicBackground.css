@@ -1,0 +1,74 @@
+
+.academic-background {
+     width: 100%;
+     height: 30vh;
+     margin: 0 auto;
+     padding: 0 14rem;
+     padding-top: 8rem;
+     padding-bottom: 5rem;
+     margin-bottom: 5rem;
+     /* background-color: #1B1B1B; */
+     opacity: .8;
+     font-family: 'IBM Plex Mono', monospace;  
+     display: flex;
+     flex-direction: column;
+}
+
+
+.academic-background h2{
+     color: #FFF;
+     font-size: 2rem;
+     /* margin-bottom: 2rem; */     
+}
+.academic-background .academic-background-container{
+     padding: 3rem;
+     border-radius: .8rem;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+
+.academic-background .academic-background-container .academic-background-icons-box{
+     background-color: #FFF;
+     width: 22rem;
+     height: 20rem;
+     padding: 2rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-radius: .5rem;  
+
+}
+
+
+.academic-background .academic-background-container .academic-background-icons-box img{
+     width: 16rem;
+     height: 8rem;
+
+     margin-bottom: 1rem;
+}
+
+.academic-background .academic-background-container .academic-background-icons-box .academic-background-description{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:first-child{
+
+     font-weight: 800;
+     font-size: 1.2rem;
+     text-align: center;
+}
+
+.academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:last-child{
+
+     font-weight: 600;
+     font-size: 1rem;
+     text-align: center;
+}
+

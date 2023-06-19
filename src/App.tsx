@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import TopPart from './components/toppart/TopPart';
 import AboutMe from './components/aboutme/AboutMe';
 import Skills from './components/skills/Skills';
+import AcademicBackground from './components/academic-background/AcademicBackground';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
                <TopPart />
                <AboutMe />
                <Skills />
+               <AcademicBackground />
                <Home />
           </div>
      )
