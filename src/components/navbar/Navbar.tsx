@@ -1,8 +1,19 @@
 import "./navbar.css";
+import { animateScroll as scroll } from 'react-scroll';
 
 function Navbar(){
 
-
+     function handleClick(sectionId: string){
+          const element = document.getElementById(sectionId);
+          if(element){
+               const offsetTop = element.offsetTop;
+               scroll.scrollTo(offsetTop, {
+                    duration: 500,
+                    smooth: true,
+               });
+          }
+          
+     }
 
      return(
           <div className="navbar">
@@ -10,10 +21,10 @@ function Navbar(){
                <div className="navbar-container">
                     <div className="left-part ">
                          <ul>
-                              <li ><a href="#about-me">Sobre mim</a></li>
-                              <li><a href="#skills">Skills</a></li>
-                              <li><a href="#training">Formação</a></li>
-                              <li ><a href="#my-projects">Projetos</a></li>
+                              <li ><a href="#about-me" onClick={()=> handleClick("about-me")}>Sobre mim</a></li>
+                              <li><a href="#skills" onClick={()=> handleClick("skills")}>Skills</a></li>
+                              <li><a href="#training" onClick={()=> handleClick("training")}>Formação</a></li>
+                              <li ><a href="#my-projects" onClick={()=> handleClick("my-projects")}>Projetos</a></li>
                          </ul>
                     </div>
                     
