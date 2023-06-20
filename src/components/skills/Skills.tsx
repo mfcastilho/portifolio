@@ -1,15 +1,10 @@
 import "./skills.css";
-import { motion } from "framer-motion";
 
 function Skills(){
      return(
           <div className="skills" id="skills">
                
-               <motion.div 
-                         animate= {{scale:1}}
-                         initial={{scale: 0.9}}
-                         transition={{duration: 1.5}}         
-               >
+               
                     <h2>Skills</h2>
                     <div className="skills-description">
                          <div className="skills-icons-box">
@@ -40,7 +35,7 @@ function Skills(){
                          
     
                     </div>
-               </motion.div>
+               
           </div>
      );
 }

@@ -9,7 +9,7 @@ function TopPart(){
                <motion.div 
                          initial="hidden"
                          whileInView="visible"
-                         viewport={{ once: true, amount: 0.5 }}
+                         viewport={{ amount: 0.9 }}
                          transition={{ delay: 0.2, duration: 1.5 }}
                          variants={{
                          hidden: { opacity: 0, x: -50 },

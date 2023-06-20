@@ -1,6 +1,4 @@
 import "./navbar.css";
-import { motion } from "framer-motion";
-
 
 function Navbar(){
 
