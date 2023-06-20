@@ -8,7 +8,7 @@ function Navbar(){
           if(element){
                const offsetTop = element.offsetTop;
                scroll.scrollTo(offsetTop, {
-                    duration: 500,
+                    duration: 700,
                     smooth: true,
                });
           }

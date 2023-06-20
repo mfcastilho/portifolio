@@ -45,6 +45,19 @@
      width: 4.8rem;
      border-radius: .5rem;
 }
+.skills .skills-description .skills-icons-box .postgres-icon{
+     width: 4.2rem;
+}
+
+.skills .skills-description .skills-icons-box .mysql-icon-image{
+     width: 4.2rem;
+     margin-left: 10%;
+}
+
+.mysql-icon{
+     background-color: #204564;
+
+}
 
 .skills .skills-description .skills-icons-box .redimention-icon{
      width: 4rem;  

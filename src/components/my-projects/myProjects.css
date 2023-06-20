@@ -34,7 +34,7 @@
 .my-projects .my-projects-container .my-projects-icons-box{
      background-color: #FFF;
      width: 46%;
-     min-height: 56rem;
+     min-height: 46rem;
      /* height: 20rem; */
      padding: 2rem;
      display: flex;
@@ -52,9 +52,9 @@
 
 
 .my-projects .my-projects-container .my-projects-icons-box img{
-     width: 100%;
-     min-width: 40.395rem;
-     min-height: 38.644rem;
+     width: 70%;
+     min-width: 30.395rem;
+     min-height: 23.644rem;
      margin-bottom: 1rem;
 }
 
