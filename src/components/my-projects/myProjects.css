@@ -11,6 +11,8 @@
      font-family: 'IBM Plex Mono', monospace;  
      display: flex;
      flex-direction: column;
+     /* gap: 10rem;
+     flex-wrap: wrap; */
 }
 
 
@@ -25,12 +27,13 @@
      display: flex;
      align-items: center;
      justify-content: space-around;
+     flex-wrap: wrap;
 }
 
 
 .my-projects .my-projects-container .my-projects-icons-box{
      background-color: #FFF;
-     width: 44%;
+     width: 46%;
      min-height: 56rem;
      /* height: 20rem; */
      padding: 2rem;
@@ -42,6 +45,8 @@
 
      color: #000;
      text-decoration: none;
+
+     margin-bottom: 4rem;
 }
 
 

@@ -42,6 +42,38 @@ function MyProjects(){
                          </div>
                     </a>
 
+                    <a href="https://findyourcountryinfos.netlify.app/" className="my-projects-icons-box" target="_blank">
+                         
+                         <img src="../../../public/projects-images/restCountryApi.png" alt="" title="" />
+                         <div className="my-projects-description">
+                              <h3>Rest Country API</h3>
+                              <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
+                         </div>
+
+                         <div className="used-project-tech">
+                              <p>JavaScript</p> *
+                              <p>ReactJs</p> *
+                              <p>Context API</p> *
+                              <p>React Router Dom</p> *
+                              <p>Axios</p> 
+                         </div>
+                    </a>
+
+                    <a href="https://mfcastilho.github.io/decodificador-one-oracle-next-education/" className="my-projects-icons-box" target="_blank">
+                         
+                         <img src="../../../public/projects-images/decodificador-one-oracle-next-education.png" alt="" title="" />
+                         <div className="my-projects-description">
+                              <h3>Decodificador de Textos</h3>
+                              <p>Aplicação Frontend que criptografa e descriptografa textos.</p>
+                         </div>
+
+                         <div className="used-project-tech">
+                              <p>Javascript</p> *
+                              <p>HTML</p> *
+                              <p>CSS</p> *
+                         </div>
+                    </a>
+
                </div>
           </div>
      );
