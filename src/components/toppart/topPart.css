@@ -7,10 +7,6 @@
      padding-bottom: 5rem;
      display: flex;
      justify-content: space-between;
-     
-
-     /* background-color: rgb(104, 100, 100); */
-     /* opacity: .8; */
 
      font-family: 'IBM Plex Mono', monospace;   
 }
@@ -27,8 +23,7 @@
 
 .top-part .left-part h2{
      font-size: 3.0rem;
-     margin-bottom: 2rem;
-     
+     margin-bottom: 2rem;  
 }
 
 .top-part .left-part h3{

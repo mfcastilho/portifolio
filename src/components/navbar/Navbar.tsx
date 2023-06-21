@@ -25,6 +25,7 @@ function Navbar(){
                               <li><a href="#skills" onClick={()=> handleClick("skills")}>Skills</a></li>
                               <li><a href="#training" onClick={()=> handleClick("training")}>Formação</a></li>
                               <li ><a href="#my-projects" onClick={()=> handleClick("my-projects")}>Projetos</a></li>
+                              <li ><a href="#contact" onClick={()=> handleClick("contact")}>Contatos</a></li>
                          </ul>
                     </div>
                     

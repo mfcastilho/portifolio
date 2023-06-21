@@ -1,0 +1,71 @@
+.contact{
+     width: 100%;
+     margin: 0 auto;
+     margin-bottom: 2rem;
+     padding: 0 14rem;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     display: flex;
+     flex-direction: column;
+
+     color: #FFF;
+
+     font-family: 'IBM Plex Mono', monospace; 
+}
+
+.contact h2{
+     font-size: 2rem;
+     margin-bottom: 2rem;  
+     
+}
+
+.contact .contact-elements-box {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #FFF;
+}
+
+.contact .contact-elements-box p{
+     font-size: 1.6rem;
+     font-weight: 500;
+
+}
+
+.contact .contact-elements-box .paragraph2{
+     margin-bottom: 1rem;
+}
+
+.contact .contact-elements-box form{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+}
+.contact .contact-elements-box form input{
+     height: 3rem;
+     padding: 1rem;
+     font-size: 1.4rem;
+     font-weight: bold;
+     border-radius: .3rem;
+     border: none;
+     font-family: 'IBM Plex Mono', monospace; 
+}
+
+.contact .contact-elements-box form input:focus{
+     outline: 0;
+}
+
+.contact .contact-elements-box form textarea{
+     height: 16rem;
+     padding: 1rem;
+     font-size: 1.4rem;
+     font-weight: bold;
+     border-radius: .3rem;
+     border: none;
+     font-family: 'IBM Plex Mono', monospace; 
+}
+
+.contact .contact-elements-box form textarea:focus{
+     outline: 0;
+}
