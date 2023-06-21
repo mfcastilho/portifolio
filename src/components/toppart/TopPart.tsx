@@ -23,7 +23,7 @@ function TopPart(){
                     </div>
                </motion.div>
                <div className="right-part">
-                    <img src="../../../public/profile-images/mario-frederico.png" alt="" />
+                    <img src="../../../public/profile-images/mario-foto-linkedin.png" alt="" />
                </div>
           </div>
      );

@@ -5,9 +5,14 @@ function AboutMe(){
      return(
           <div className="about-me" id="about-me">
                <motion.div 
-                         animate= {{scale:1}}
-                         initial={{scale: 0.9}}
-                         transition={{duration: 1.5}}         
+                         initial="hidden"
+                         whileInView="visible"
+                         viewport={{once: true, amount: 0.5 }}
+                         transition={{ delay: 0.2, duration: 2 }}
+                         variants={{
+                              hidden: { opacity: 0},
+                              visible: { opacity: 1},
+                         }}       
                >
                     <h2>Sobre mim</h2>
                     <div className="about-me-description">

@@ -7,7 +7,17 @@ function AcademicBackground(){
      return(
           <div className="academic-background" id="training">
                <h2>Formação</h2>
-               <div className="academic-background-container">
+               <motion.div className="academic-background-container"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.8 }}
+                    transition={{ delay: 0.2, duration: 2 }}
+                    variants={{
+                         hidden: { opacity: 0, y: 2},
+                         visible: { opacity: 1, y: 0},
+                    }}
+               
+               >
                     
                     <motion.div className="academic-background-icons-box"
                          whileHover={{ scale: 1.05 }} 
@@ -50,7 +60,7 @@ function AcademicBackground(){
                               <p>Em andamento - Outubro de 2023</p>
                          </div>
                     </motion.div>
-               </div>
+               </motion.div>
           </div>
      );
 }

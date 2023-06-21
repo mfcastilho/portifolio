@@ -1,12 +1,25 @@
 import "./skills.css";
+import { motion } from "framer-motion";
 
 function Skills(){
+
+     
+
      return(
           <div className="skills" id="skills">
                
                
                     <h2>Skills</h2>
-                    <div className="skills-description">
+                    <motion.div className="skills-description"
+                         initial="hidden"
+                         whileInView="visible"
+                         viewport={{ once: true, amount: 0.5 }}
+                         transition={{ delay: 0.2, duration: 1.5 }}
+                         variants={{
+                              hidden: { opacity: 0, y: 2 },
+                              visible: { opacity: 1, y: 0 },
+                         }}
+                    >
                          <div className="skills-icons-box">
                               <img src="../../../public/icons/typescript_original_logo_icon_146317.svg" alt="typescript icon" title="typescript" />
                          </div>
@@ -34,7 +47,7 @@ function Skills(){
                          </div>
                          
     
-                    </div>
+                    </motion.div>
                
           </div>
      );
