@@ -1,23 +1,41 @@
-import "./myProjects.css";
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-
+import Glider from "glider-js";
+import "glider-js/glider.min.css";
+import "./myProjects.css";
 
 function MyProjects(){
 
-     
+     const gliderRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (gliderRef.current) {
+      new Glider(gliderRef.current, {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        dots: ".my-projects-dots",
+        arrows: {
+          prev: ".my-projects-prev",
+          next: ".my-projects-next",
+        },
+      });
+    }
+  }, []);
 
      return(
           <div className="my-projects" id="my-projects">
                <h2>Meus projetos</h2>
-               <div className="my-projects-container">
+               <div className="my-projects-container glider-contain" ref={gliderRef}>
                     
                     
-                    <motion.a href="https://flamengo-api.cyclic.app/v1/api-docs/" className="my-projects-icons-box" target="_blank"
-                     whileHover={{ scale: 1.05 }} 
-                     transition={{ duration: 0.3 }}
+                    <a href="https://flamengo-api.cyclic.app/v1/api-docs/" className="my-projects-icons-box" target="_blank"
+                     
                     >
+                         <div className="image-container">
+                              <img src="../../../public/projects-images/flamengo-crf-icon-carrosel.png" alt="" title="" />
+                         </div>
                          
-                         <img src="../../../public/projects-images/flamengo-crf-icon.svg" alt="" title="" />
                          <div className="my-projects-description">
                               <h3>API do Flamengo</h3>
                               <p>API  que disponibiliza dados históricos sobre o Clube de Regatas do Flamengo.</p>
@@ -30,15 +48,16 @@ function MyProjects(){
                               <p>SequelizeJs</p> *
                               <p>Postgres</p> 
                          </div>
-                    </motion.a>
+                    </a>
 
                      
-                    <motion.a href="https://finding-movies.netlify.app/" className="my-projects-icons-box" target="_blank"
-                    whileHover={{ scale: 1.05 }}  
-                    transition={{ duration: 0.3 }}
+                    <a href="https://finding-movies.netlify.app/" className="my-projects-icons-box" target="_blank"
+                    
                     >
                          
-                         <img src="../../../public/projects-images/findmovie-image.svg" alt="" title="" />
+                         <div className="image-container">
+                              <img src="../../../public/projects-images/findmovie-image-carrosel.png" alt="" title="" />
+                         </div>
                          <div className="my-projects-description">
                               <h3>Find Movies</h3>
                               <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
@@ -51,14 +70,15 @@ function MyProjects(){
                               <p>React Router Dom</p> *
                               <p>Axios</p> 
                          </div>
-                    </motion.a>
+                    </a>
 
-                    <motion.a href="https://findyourcountryinfos.netlify.app/" className="my-projects-icons-box" target="_blank"
-                    whileHover={{ scale: 1.05 }}  
-                    transition={{ duration: 0.3 }}
+                    <a href="https://findyourcountryinfos.netlify.app/" className="my-projects-icons-box" target="_blank"
+                    
                     >
                          
-                         <img src="../../../public/projects-images/restCountryApi.svg" alt="" title="" />
+                         <div className="image-container">
+                              <img src="../../../public/projects-images/restCountryApi-carrossel.png" alt="" title="" />
+                         </div>
                          <div className="my-projects-description">
                               <h3>Rest Country API</h3>
                               <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
@@ -71,14 +91,15 @@ function MyProjects(){
                               <p>React Router Dom</p> *
                               <p>Axios</p> 
                          </div>
-                    </motion.a>
+                    </a>
 
-                    <motion.a href="https://mfcastilho.github.io/decodificador-one-oracle-next-education/" className="my-projects-icons-box" target="_blank"
-                    whileHover={{ scale: 1.05 }} 
-                    transition={{ duration: 0.3 }}
+                    <a href="https://mfcastilho.github.io/decodificador-one-oracle-next-education/" className="my-projects-icons-box" target="_blank"
+                    
                     >
                          
-                         <img src="../../../public/projects-images/decodificador-one-oracle-next-education.svg" alt="" title="" />
+                         <div className="image-container">
+                              <img src="../../../public/projects-images/decodificador-one-oracle-next-education-carrosel.png" alt="" title="" />
+                         </div>
                          <div className="my-projects-description">
                               <h3>Decodificador de Textos</h3>
                               <p>Aplicação Frontend que criptografa e descriptografa textos.</p>
@@ -90,8 +111,13 @@ function MyProjects(){
                               <p>CSS</p> *
 
                          </div>
-                    </motion.a>
+                    </a>
 
+               </div>
+               <div className="my-projects-dots"></div>
+               <div className="bnt-box">
+                    <button className="my-projects-prev">Anterior</button>
+                    <button className="my-projects-next">Próximo</button>
                </div>
           </div>
      );
