@@ -14,9 +14,9 @@
 }
 
 .contact h2{
-     font-size: 2rem;
-     margin-bottom: 2rem;  
-     
+     color: #0D0C0C;
+     font-size: 2.6rem;
+     margin-bottom: 2rem;   
 }
 
 .contact .contact-elements-box {
@@ -46,9 +46,10 @@
      height: 3rem;
      padding: 1rem;
      font-size: 1.4rem;
-     border-radius: .3rem;
+     /* border-radius: .3rem; */
      border: none;
      font-family: 'IBM Plex Mono', monospace; 
+     background-color: #C4C4C4;
 }
 
 .contact .contact-elements-box form input:focus{
@@ -59,9 +60,10 @@
      height: 16rem;
      padding: 1rem;
      font-size: 1.4rem;
-     border-radius: .3rem;
+     /* border-radius: .3rem; */
      border: none;
      font-family: 'IBM Plex Mono', monospace; 
+     background-color: #C4C4C4;
 }
 
 .contact .contact-elements-box form textarea:focus{
