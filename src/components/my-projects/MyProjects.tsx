@@ -74,7 +74,6 @@ function MyProjects(){
                          </div>
                          </div>
 
-                        
                     </div>
 
                     <div className="my-projects-icons-box">
