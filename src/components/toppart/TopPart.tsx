@@ -1,11 +1,18 @@
 import "./topPart.css";
 import {motion} from "framer-motion";
 import { animateScroll as scroll } from 'react-scroll';
-import {useState, useEffect} from "react";
+import {useState, useEffect, ChangeEvent} from "react";
 
 function TopPart(){
 
      const [isScrolling, setIsScrolling] = useState(false);
+
+     const [selectedFile, setSelectedFile] = useState<File | null>(null);
+
+     const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
+          const file = event.target.files?.[0];
+          setSelectedFile(file || null);
+     };
 
      useEffect(() => {
           let timeoutId:any;
@@ -39,12 +46,13 @@ function TopPart(){
      }
      
      return(
-          <div className="top-part">
+          <div className="top-part" id="home">
                <div className={`navbar ${isScrolling ? 'hidden' : 'visible'}`}>
                     
                     <div className="navbar-container">
                          <div className="left-part ">
-                              <ul>
+                                   <ul >
+                                   <li ><a href="#home" onClick={()=> handleClick("home")}>Home</a></li>
                                    <li ><a href="#about-me" onClick={()=> handleClick("about-me")}>Sobre mim</a></li>
                                    <li><a href="#skills" onClick={()=> handleClick("skills")}>Skills</a></li>
                                    <li><a href="#training" onClick={()=> handleClick("training")}>Formação</a></li>
@@ -73,6 +81,7 @@ function TopPart(){
                     </div>     
                   
                </div>
+
                <div className="top-part-container">
                     
                     <motion.div 
@@ -97,6 +106,18 @@ function TopPart(){
                          <img src="../../../public/profile-images/mario-foto-linkedin.png" alt="" />
                     </div>
                </div>
+
+               <div className="btn-download-curriculum-container">
+                    <label className="btn-download-curriculum" htmlFor="file-input" id="file-label">
+                    {selectedFile ? selectedFile.name : 'Download CV'}
+                    </label>
+                    <input
+                    type="file"
+                    id="file-input"
+                    style={{ display: 'none' }}
+                    onChange={handleFileChange}
+                    />
+               </div>               
           </div>
           
      );
