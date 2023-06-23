@@ -7,12 +7,30 @@ function MyProjects(){
      
 
      return(
-          <div className="my-projects" id="my-projects">
-               <h2>Meus projetos</h2>
+          <motion.div className="my-projects" id="my-projects">
+               <motion.h2
+                     initial="hidden"
+                     whileInView="visible"
+                     viewport={{ once: true, amount: 0.5 }}
+                     transition={{ delay: 0.2, duration: 1.5 }}
+                     variants={{
+                          hidden: { opacity: 0, y: 2 },
+                          visible: { opacity: 1, y: 0 },
+                     }}
+               >Meus projetos</motion.h2>
                <div className="my-projects-container">
                     
                     
-                    <div className="my-projects-icons-box">
+                    <motion.div className="my-projects-icons-box"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true, amount: 0.5 }}
+                          transition={{ delay: 0.2, duration: 1.5 }}
+                          variants={{
+                               hidden: { opacity: 0, y: 2 },
+                               visible: { opacity: 1, y: 0 },
+                          }}
+                    >
                          
                          <div className="image-box">
                               <img src="../../../public/projects-images/flamengo-crf-icon.svg" alt="" title="" />
@@ -31,10 +49,19 @@ function MyProjects(){
                          </div>
 
                          
-                    </div>
+                    </motion.div>
 
                      
-                    <div className="my-projects-icons-box">
+                    <motion.div className="my-projects-icons-box"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true, amount: 0.5 }}
+                          transition={{ delay: 0.2, duration: 1.5 }}
+                          variants={{
+                               hidden: { opacity: 0, y: 2 },
+                               visible: { opacity: 1, y: 0 },
+                          }}
+                    >
                          <div className="my-projects-description left-description">
                               <h3>Find Movies</h3>
                               <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
@@ -54,9 +81,18 @@ function MyProjects(){
                         
 
                          
-                    </div>
+                    </motion.div>
 
-                    <div className="my-projects-icons-box">
+                    <motion.div className="my-projects-icons-box"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true, amount: 0.5 }}
+                          transition={{ delay: 0.2, duration: 1.5 }}
+                          variants={{
+                               hidden: { opacity: 0, y: 2 },
+                               visible: { opacity: 1, y: 0 },
+                          }}
+                    >
                          
                          <div className="image-box">
                               <img src="../../../public/projects-images/restCountryApi.svg" alt="" title="" />
@@ -74,9 +110,18 @@ function MyProjects(){
                          </div>
                          </div>
 
-                    </div>
+                    </motion.div>
 
-                    <div className="my-projects-icons-box">
+                    <motion.div className="my-projects-icons-box"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true, amount: 0.5 }}
+                          transition={{ delay: 0.2, duration: 1.5 }}
+                          variants={{
+                               hidden: { opacity: 0, y: 2 },
+                               visible: { opacity: 1, y: 0 },
+                          }}
+                    >
                          <div className="my-projects-description left-description">
                               <h3>Decodificador de Textos</h3>
                               <p>Aplicação Frontend que criptografa e descriptografa textos.</p>
@@ -94,10 +139,10 @@ function MyProjects(){
                          
 
                          
-                    </div>
+                    </motion.div>
 
                </div>
-          </div>
+          </motion.div>
      );
 }
 

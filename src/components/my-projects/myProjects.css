@@ -1,29 +1,25 @@
 
 .my-projects {
      width: 100%;
-     
      margin: 0 auto;
      padding: 0 14rem;
-     padding-top: 8rem;
+     padding-top: 10rem;
      margin-bottom: 5rem;
-     /* background-color: #1B1B1B; */
      opacity: .8;
      font-family: 'IBM Plex Mono', monospace;  
      display: flex;
      flex-direction: column;
-     /* gap: 10rem;
-     flex-wrap: wrap; */
+     background-color: #ACABAB;
 }
 
 
 .my-projects h2{
-     color: #FFF;
-     font-size: 2rem;
-     /* margin-bottom: 2rem; */     
+     color: #0D0C0C;
+     font-size: 2.6rem;
+     margin-bottom: 2rem;    
 }
 .my-projects .my-projects-container{
-     padding: 3rem;
-
+     padding: 2rem;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -35,25 +31,22 @@
      
      padding: 2rem;
      display: flex;
-
-
      border-radius: .5rem;  
-
      color: #000;
      text-decoration: none;
-
-     margin-bottom: 4rem;
+     margin-bottom: 6rem;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .image-box{
-     background-color: #FFF;
+     background-color: #ACABAB;;
      padding: 2rem;
      width: 38rem;
      border-radius: .5rem;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box img{
-   width: 100%
+   width: 100%;
+   border-radius:1.2rem;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description{
@@ -61,7 +54,7 @@
      flex-direction: column;
      justify-content: flex-start;
      align-items: flex-start;
-     color: #FFF;
+     color: #0D0C0C;
      padding: 3rem;
 }
 
