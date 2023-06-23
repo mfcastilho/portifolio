@@ -53,13 +53,13 @@
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
-     align-items: flex-start;
+     align-items: center;
      color: #0D0C0C;
      padding: 3rem;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .left-description{
-     align-items: flex-end;
+     align-items: center;
 }
 
 
@@ -75,11 +75,11 @@
 
      font-weight: 600;
      font-size: 1.6rem;
-     text-align: left;
+     text-align: center;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .left-description p{
-     text-align: end;
+     text-align: center;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .used-project-tech{
@@ -96,4 +96,31 @@
 
 .my-projects .my-projects-container .my-projects-icons-box .used-project-tech p{
      font-size: 1.2rem;    
+}
+
+.btns-project-description-box{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     gap: 2rem;
+}
+
+.btns-project-description-box a{
+     min-width: 12rem;
+     padding: 1rem;
+     border:none;
+     border-radius: 1.5rem;
+     background-color:   #f76a23;
+     cursor: pointer;
+     color: #FFF;
+     transition: .6s all;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1.3rem;
+}
+
+.btns-project-description-box a:hover{
+     background-color:   orangered;
 }
