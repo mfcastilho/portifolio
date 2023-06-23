@@ -3,58 +3,67 @@
      width: 100%;
      margin: 0 auto;
      padding: 0 14rem;
-     padding-top: 8rem;
+     padding-top: 10rem;
+     margin-bottom: 5rem;
      opacity: .8;
      font-family: 'IBM Plex Mono', monospace;  
+     display: flex;
+     flex-direction: column;
+     background-color: #ACABAB;
 }
 
 
 .my-projects h2{
-     color: #FFF;
-     font-size: 2rem;  
+     color: #0D0C0C;
+     font-size: 2.6rem;
+     margin-bottom: 2rem;    
 }
 .my-projects .my-projects-container{
-     padding-top: 3rem;
-     width: 100%;
+     padding: 2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
 }
 
 /* my-projects-container glider-contain glider draggable */
 
 .my-projects .my-projects-container .my-projects-icons-box{
-     background-color: #FFF;
+     
+     padding: 2rem;
+     display: flex;
      border-radius: .5rem;  
      color: #000;
      text-decoration: none;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding-top: 2rem;
+     margin-bottom: 6rem;
 }
 
-.glider-contain{
-     
-        
-}
-
-.image-container{
-     width: 96%;
-     height: 48vh;
-     display: flex;
-     justify-content: center;
+.my-projects .my-projects-container .my-projects-icons-box .image-box{
+     background-color: #ACABAB;;
+     padding: 2rem;
+     width: 38rem;
      border-radius: .5rem;
 }
 
-
-.image-container img{
-     width: 100%;
-     margin-bottom: 1rem;
-     position: relative;
-     border-radius: .5rem;
+.my-projects .my-projects-container .my-projects-icons-box img{
+   width: 100%;
+   border-radius:1.2rem;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description{
-    
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     color: #0D0C0C;
+     padding: 3rem;
 }
+
+.my-projects .my-projects-container .my-projects-icons-box .left-description{
+     align-items: center;
+}
+
+
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description h3{
 
@@ -67,6 +76,10 @@
 
      font-weight: 600;
      font-size: 1.6rem;
+     text-align: center;
+}
+
+.my-projects .my-projects-container .my-projects-icons-box .left-description p{
      text-align: center;
 }
 
@@ -86,29 +99,29 @@
      font-size: 1.2rem;    
 }
 
-.bnt-box{
+.btns-project-description-box{
      width: 100%;
+     height: 100%;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
+     align-items: flex-end;
+     gap: 2rem;
 }
 
-.bnt-box button{
-     height: 4rem;
-     width: 20%;
-     /* background-color: rgb(141, 139, 139);
-     background-color: #1B1B1B; */
-     /* background-color: #a09e9e; */
-     background-color: #373434;
-     color: #FFF;
-     border: none;
-     border-radius: .5rem;
-
-
-     transition: .6s all;
-}
-
-.bnt-box button:hover{
+.btns-project-description-box a{
+     min-width: 12rem;
+     padding: 1rem;
+     border:none;
+     border-radius: 1.5rem;
+     background-color:   #f76a23;
      cursor: pointer;
-     background-color: rgb(183, 49, 1);
+     color: #FFF;
+     transition: .6s all;
+     text-align: center;
+     text-decoration: none;
+     font-size: 1.3rem;
 }
 
+.btns-project-description-box a:hover{
+     background-color:   orangered;
+}
