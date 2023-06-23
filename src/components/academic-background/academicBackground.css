@@ -5,11 +5,8 @@
      margin: 0 auto;
      padding: 0 14rem;
      padding-top: 10rem;
-     /* background-color: #1B1B1B; */
      opacity: .8;
-     /* font-family: 'IBM Plex Mono', monospace;   */
      font-family: 'Poppins', sans-serif;
-
      display: flex;
      flex-direction: column;
 }
@@ -20,10 +17,11 @@
      font-size: 2.6rem;
      margin-bottom: 2rem;     
 }
+
+
 .academic-background .academic-background-container{
      padding: 3rem;
      border-radius: .8rem;
-
      display: flex;
      align-items: center;
      justify-content: space-around;
@@ -40,14 +38,12 @@
      justify-content: center;
      align-items: center;
      border-radius: .5rem;  
-
 }
 
 
 .academic-background .academic-background-container .academic-background-icons-box img{
      width: 22rem;
-     height: 11rem;
-
+     min-height: 11rem;
      margin-bottom: 1rem;
 }
 
@@ -61,14 +57,12 @@
 
 
 .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:first-child{
-
      font-weight: 800;
      font-size: 1.4rem;
      text-align: center;
 }
 
 .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:last-child{
-
      font-weight: 600;
      font-size: 1rem;
      text-align: center;

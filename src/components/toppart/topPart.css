@@ -1,3 +1,5 @@
+
+
 /* -- COMPONENT --*/
 .top-part{
      width: 100%;
@@ -5,7 +7,6 @@
      margin: 0 auto;
      display: flex;
      flex-direction: column;
-
      background-image: url("../../../public/background-images/landscape.svg");
      background-size: cover;
      background-position: center;
@@ -19,6 +20,7 @@
      justify-content: center;
 }
 
+
 .navbar-container{
      width: 100%;
      height: 7rem;
@@ -29,17 +31,15 @@
      justify-content: space-between;
      background-color: transparent;
      z-index: 2;
-     /* font-family: 'IBM Plex Mono', monospace;    */
      font-family: 'Poppins', sans-serif;
-
 }
 
 
 .navbar-container .right-part{
      display: flex;
-
      gap: 3rem;
 }
+
 
 .navbar-container .right-part .social-media-icons-box{
      width: 2.4rem;
@@ -64,6 +64,7 @@
      width: 70%;  
 }
 
+
 .navbar-container .left-part ul{
      display: flex;
      align-items: center;
@@ -71,14 +72,14 @@
      position: relative;
 }
 
+
 .navbar-container .left-part ul li{
-     
      list-style: none;
      font-size: 1.4rem;
-     /* font-weight: 800; */
      font-weight: 500;
      position: relative;   
 }
+
 
 .navbar-container .left-part ul li::after{
     content: "";
@@ -92,25 +93,28 @@
     transition: width .3s ease-in-out;
 }
 
+
 .navbar-container .left-part ul li:hover::after{
      width: 90%;
 }
+
 
 .navbar-container .left-part ul li a{
      color: #161212;
      text-decoration: none;
 }
 
+
 .navbar.visible {
      opacity: 1;
      transition: opacity 1s;
-   }
+}
    
+
 .navbar.hidden {
      opacity: 0;
      pointer-events: none;
 }
-   
    
    
 
@@ -122,9 +126,7 @@
      padding-top: 6rem;
      display: flex;
      justify-content: space-between;
-     /* font-family: 'IBM Plex Mono', monospace;   */
      font-family: 'Poppins', sans-serif;
-
 }
 
 .top-part .top-part-container .left-part{
@@ -140,9 +142,11 @@
      margin-bottom: 2rem;  
 }
 
+
 .top-part .top-part-container .left-part h3{
      color: #292727;
 }
+
 
 .top-part .top-part-container .left-part h6{
      font-size: 1.6rem;
@@ -166,10 +170,12 @@
      font-weight: 600;
 }
 
+
 .top-part .top-part-container .right-part{
      display: flex;
      margin-top: 8rem;
 }
+
 
 .top-part .top-part-container .right-part img{
      border-radius: 50%;
@@ -184,6 +190,8 @@
      display: flex;
      justify-content: center;
 }
+
+
 .btn-download-curriculum{
      margin-top: 5rem;
      display: flex;
@@ -193,15 +201,13 @@
      color: rgb(57, 56, 56);
      font-size: 1.6rem;
      min-width: 20rem;
-
      padding: 1.5rem;
      outline: 1;
-     border-radius: 2rem;
      border: 1px solid rgb(57, 56, 56);
      cursor: pointer;
-
      transition: .8s ease-in-out;
 }
+
 
 .btn-download-curriculum:hover{
      border: none;

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Glider from "glider-js";
 import "glider-js/glider.min.css";
 import "./myProjects.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 function MyProjects(){
 
@@ -51,17 +53,21 @@ function MyProjects(){
 
                          
                          <div className="image-box">
-                              <img src="../../../public/projects-images/flamengo-crf-icon.svg" alt="" title="" />
+                              <img src="../../../public/projects-images/flamengo-crf-icon-carrosel.png" alt="" title="" />
                          </div>
                          
                          <div className="my-projects-description">
                               <h3>API do Flamengo</h3>
                               <p>API  que disponibiliza dados históricos sobre o Clube de Regatas do Flamengo.</p>
                               <div className="used-project-tech">
-                                   <p>JavaScript</p> *
-                                   <p>NodeJs</p> *
-                                   <p>ExpressJs</p> *
-                                   <p>SequelizeJs</p> *
+                                   <p>JavaScript</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>NodeJs</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>ExpressJs</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>SequelizeJs</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
                                    <p>Postgres</p> 
                               </div>
                               <div className="btns-project-description-box">
@@ -88,10 +94,14 @@ function MyProjects(){
                               <h3>Find Movies</h3>
                               <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
                               <div className="used-project-tech">
-                                   <p>TypeScript</p> *
-                                   <p>ReactJs</p> *
-                                   <p>Hooks</p> *
-                                   <p>React Router Dom</p> *
+                                   <p>TypeScript</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>ReactJs</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>Hooks</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>React Router Dom</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
                                    <p>Axios</p> 
                               </div>
                               <div className="btns-project-description-box">
@@ -101,7 +111,7 @@ function MyProjects(){
                          </div>
                          
                          <div className="image-box">
-                              <img src="../../../public/projects-images/findmovie-image.svg" alt="" title="" />
+                              <img src="../../../public/projects-images/findmovie-image-carrosel.png" alt="" title="" />
                          </div>
                          
                         
@@ -121,17 +131,21 @@ function MyProjects(){
                     >
                          
                          <div className="image-box">
-                              <img src="../../../public/projects-images/restCountryApi.svg" alt="" title="" />
+                              <img src="../../../public/projects-images/restCountryApi-carrossel.png" alt="" title="" />
                          </div>
                          
                          <div className="my-projects-description">
                               <h3>Rest Country API</h3>
                               <p>Aplicação Frontend que busca informações de filmes  de forma dinâmica. </p>
                               <div className="used-project-tech">
-                                   <p>JavaScript</p> *
-                                   <p>ReactJs</p> *
-                                   <p>Context API</p> *
-                                   <p>React Router Dom</p> *
+                                   <p>JavaScript</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>ReactJs</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>Context API</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>React Router Dom</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
                                    <p>Axios</p> 
                               </div>
                               <div className="btns-project-description-box">
@@ -156,9 +170,11 @@ function MyProjects(){
                               <h3>Decodificador de Textos</h3>
                               <p>Aplicação Frontend que criptografa e descriptografa textos.</p>
                               <div className="used-project-tech">
-                                   <p>Javascript</p> *
-                                   <p>HTML</p> *
-                                   <p>CSS</p> *
+                                   <p>Javascript</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>HTML</p>
+                                   <FontAwesomeIcon icon={faCircle} className="bullet" />
+                                   <p>CSS</p> 
                               </div>
                               <div className="btns-project-description-box">
                                    <a href="https://github.com/mfcastilho/decodificador-one-oracle-next-education" target="_blank">Repositório</a>
@@ -167,7 +183,7 @@ function MyProjects(){
                          </div>
                          
                          <div className="image-box">
-                              <img src="../../../public/projects-images/decodificador-one-oracle-next-education.svg" alt="" title="" />
+                              <img src="../../../public/projects-images/decodificador-one-oracle-next-education-carrosel.png" alt="" title="" />
                          </div>
                          
                          

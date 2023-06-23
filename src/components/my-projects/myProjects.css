@@ -6,9 +6,7 @@
      padding-top: 10rem;
      margin-bottom: 5rem;
      opacity: .8;
-     /* font-family: 'IBM Plex Mono', monospace;   */
      font-family: 'Poppins', sans-serif;
-
      display: flex;
      flex-direction: column;
      background-color: #ACABAB;
@@ -20,37 +18,43 @@
      font-size: 2.6rem;
      margin-bottom: 2rem;    
 }
+
+
 .my-projects .my-projects-container{
      padding: 2rem;
      display: flex;
      flex-direction: column;
      align-items: center;
-
 }
 
-/* my-projects-container glider-contain glider draggable */
+
+.my-projects .my-projects-container .my-projects-icons-box:last-child{
+     margin-bottom: 16rem;
+}
+
 
 .my-projects .my-projects-container .my-projects-icons-box{
-     
      padding: 2rem;
      display: flex;
      border-radius: .5rem;  
      color: #000;
      text-decoration: none;
-     margin-bottom: 6rem;
+     margin-bottom: 10rem;
 }
+
 
 .my-projects .my-projects-container .my-projects-icons-box .image-box{
      background-color: #ACABAB;;
      padding: 2rem;
-     width: 38rem;
-     border-radius: .5rem;
+     width: 88rem;
 }
+
 
 .my-projects .my-projects-container .my-projects-icons-box img{
    width: 100%;
-   border-radius:1.2rem;
+   border-radius: .3rem;
 }
+
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description{
      display: flex;
@@ -61,45 +65,52 @@
      padding: 3rem;
 }
 
+
 .my-projects .my-projects-container .my-projects-icons-box .left-description{
      align-items: center;
 }
 
 
-
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description h3{
-
      font-weight: 800;
      font-size: 3rem;
      text-align: center;
 }
 
-.my-projects .my-projects-container .my-projects-icons-box .my-projects-description p{
 
+.my-projects .my-projects-container .my-projects-icons-box .my-projects-description p{
      font-weight: 600;
      font-size: 1.6rem;
      text-align: center;
 }
 
+
 .my-projects .my-projects-container .my-projects-icons-box .left-description p{
      text-align: center;
 }
+
 
 .my-projects .my-projects-container .my-projects-icons-box .used-project-tech{
      display: flex;
      justify-content: center;
      align-items: center;
      gap: .4rem;
-
      margin-bottom: 1rem;
-
-     font-size: 1.2rem;
+     font-size: 1.5rem;
      font-weight: 800;
+     margin-top: 2rem;
 }
+
+
+.my-projects .my-projects-container .my-projects-icons-box .used-project-tech .bullet{
+     width: .6rem;
+}
+
 
 .my-projects .my-projects-container .my-projects-icons-box .used-project-tech p{
      font-size: 1.2rem;    
 }
+
 
 .btns-project-description-box{
      width: 100%;
@@ -110,20 +121,23 @@
      gap: 2rem;
 }
 
+
 .btns-project-description-box a{
      min-width: 12rem;
      padding: 1rem;
-     border:none;
-     border-radius: 1.5rem;
-     background-color:   #f76a23;
+     border:1px solid #0D0C0C;
+     background-color: transparent;
      cursor: pointer;
-     color: #FFF;
-     transition: .6s all;
+     color: #0D0C0C;
+     transition: .8s ease-in-out;
      text-align: center;
      text-decoration: none;
      font-size: 1.3rem;
 }
 
+
 .btns-project-description-box a:hover{
-     background-color:   orangered;
+     background-color: #0D0C0C;
+     border: none;
+     color: #FFF;
 }
