@@ -1,9 +1,19 @@
 import "./contact.css";
+import { motion } from "framer-motion";
 
 
 function Contact(){
      return(
-          <div className="contact" id="contact">
+          <motion.div className="contact" id="contact"
+               initial="hidden"
+               whileInView="visible"
+               viewport={{ once: true, amount: 0.5 }}
+               transition={{ delay: 0.2, duration: 1.5 }}
+               variants={{
+                    hidden: { opacity: 0, y: 2 },
+                    visible: { opacity: 1, y: 0 },
+               }}
+          >
                <h2>Contato</h2>
                <div className="contact-elements-box">
                     <p>Quer entrar em contato comigo?</p>
@@ -17,7 +27,7 @@ function Contact(){
                     </form>
                     
                </div>
-          </div>
+          </motion.div>
      );
 }
 

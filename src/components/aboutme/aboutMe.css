@@ -16,7 +16,9 @@
 
      opacity: .8;
 
-     font-family: 'IBM Plex Mono', monospace;  
+     /* font-family: 'IBM Plex Mono', monospace;   */
+     font-family: 'Poppins', sans-serif;
+
 
      display: flex;
      flex-direction: column;

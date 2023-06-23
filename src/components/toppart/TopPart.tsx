@@ -23,7 +23,7 @@ function TopPart(){
      };
 
      useEffect(() => {
-          let timeoutId:any;
+          let timeoutId:number;
         
           const handleScroll = () => {
             setIsScrolling(true);

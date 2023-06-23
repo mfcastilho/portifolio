@@ -29,7 +29,9 @@
      justify-content: space-between;
      background-color: transparent;
      z-index: 2;
-     font-family: 'IBM Plex Mono', monospace;   
+     /* font-family: 'IBM Plex Mono', monospace;    */
+     font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -73,7 +75,8 @@
      
      list-style: none;
      font-size: 1.4rem;
-     font-weight: 800;
+     /* font-weight: 800; */
+     font-weight: 500;
      position: relative;   
 }
 
@@ -119,7 +122,9 @@
      padding-top: 6rem;
      display: flex;
      justify-content: space-between;
-     font-family: 'IBM Plex Mono', monospace;  
+     /* font-family: 'IBM Plex Mono', monospace;   */
+     font-family: 'Poppins', sans-serif;
+
 }
 
 .top-part .top-part-container .left-part{
