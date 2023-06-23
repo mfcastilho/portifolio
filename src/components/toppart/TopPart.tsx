@@ -1,9 +1,33 @@
 import "./topPart.css";
 import {motion} from "framer-motion";
 import { animateScroll as scroll } from 'react-scroll';
+import {useState, useEffect} from "react";
 
 function TopPart(){
+
+     const [isScrolling, setIsScrolling] = useState(false);
+
+     useEffect(() => {
+          let timeoutId:any;
+        
+          const handleScroll = () => {
+            setIsScrolling(true);
+        
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+              setIsScrolling(false);
+            }, 300);
+          };
+        
+          window.addEventListener('scroll', handleScroll);
+          return () => {
+            window.removeEventListener('scroll', handleScroll);
+            clearTimeout(timeoutId);
+          };
+        }, []);
+
      function handleClick(sectionId: string){
+          console.log(sectionId);
           const element = document.getElementById(sectionId);
           if(element){
                const offsetTop = element.offsetTop;
@@ -11,13 +35,22 @@ function TopPart(){
                     duration: 700,
                     smooth: true,
                });
-          }
-          
+               // const navbarContainer:any = document.querySelector(".navbar-container");
+               // if(sectionId != "about-me"){
+               //      navbarContainer.style.backgroundColor = "#aba4a4";
+
+               // }else if(sectionId == "about-me"){
+               //      navbarContainer.style.backgroundColor = "transparent";
+               // }
+
+               
+
+          } 
      }
      
      return(
           <div className="top-part">
-               <div className="navbar">
+               <div className={`navbar ${isScrolling ? 'hidden' : 'visible'}`}>
                     
                     <div className="navbar-container">
                          <div className="left-part ">
@@ -60,7 +93,7 @@ function TopPart(){
                               variants={{
                               hidden: { opacity: 0, x: -50 },
                               visible: { opacity: 1, x: 0 },
-                         }}
+                              }}
                     > 
                          <div className="left-part">
                               <h3>Olá, meu nome é</h3>
