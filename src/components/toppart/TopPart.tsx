@@ -35,16 +35,6 @@ function TopPart(){
                     duration: 700,
                     smooth: true,
                });
-               // const navbarContainer:any = document.querySelector(".navbar-container");
-               // if(sectionId != "about-me"){
-               //      navbarContainer.style.backgroundColor = "#aba4a4";
-
-               // }else if(sectionId == "about-me"){
-               //      navbarContainer.style.backgroundColor = "transparent";
-               // }
-
-               
-
           } 
      }
      
@@ -88,7 +78,7 @@ function TopPart(){
                     <motion.div 
                               initial="hidden"
                               whileInView="visible"
-                              viewport={{ amount: 0.9 }}
+                              viewport={{ amount: 0.5 }}
                               transition={{ delay: 0.2, duration: 1.5 }}
                               variants={{
                               hidden: { opacity: 0, x: -50 },
@@ -100,7 +90,9 @@ function TopPart(){
                               <h2>Mario Frederico Castilho</h2>
                               <h6>Sou um desenvolvedor web apaixonado por tecnologia que sempre busca aprender e aprimorar as aptidões.</h6>
                          </div>
+
                     </motion.div>
+                    
                     <div className="right-part">
                          <img src="../../../public/profile-images/mario-foto-linkedin.png" alt="" />
                     </div>

@@ -17,7 +17,17 @@ function AboutMe(){
                <div>
                     <h2>Sobre mim</h2>
                     <div className="about-me-description">
-                         <p>" Graduado em análise e desenvolvimento de sistemas pela Unicesumar e formado no curso de desenvolvimento web fullstack pela Digital House, atualmente sou aluno dos programas One Oracle Next Education - Especialização em Frontend , fornecido pela Alura em parceria com a Oracle e do 1000 bolsas iFood - Especialização em Backend, fornecido pela Cubos Academy em parceria com o iFood. "</p>
+                         
+                         <p>"Sou graduado em análise e desenvolvimento de sistemas pela Unicesumar e formado no curso de desenvolvimento web fullstack pela Digital House. "</p>
+                         <br />
+                         <br />
+                         <p>" Atualmente sou aluno do programa One Oracle Next Education especialização Frontend, fornecido pela Alura e do programa 1000 bolsas iFood especialização Backend, fornecido pela Cubos Academy. "</p>
+                         <br />
+                         <br />
+                         <p>" Tenho conhecimento técnico em Typescript, JavaScript, Node.js, Express, Sequelize, bancos de dados relacionais, React, HTML, CSS, além de familiaridade com Java e Spring Boot. "</p>
+                         <br />
+                         <br />
+                         <p>" Sou proativo, comunicativo, disciplinado e organizado. Tenho habilidade em pesquisar soluções e estou sempre aberto para aprender, evoluir e ajudar. "</p>
                     </div>
                </div>
           </motion.div>
