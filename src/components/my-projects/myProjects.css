@@ -25,22 +25,18 @@
      padding: 3rem;
 
      display: flex;
+     flex-direction: column;
      align-items: center;
-     justify-content: space-around;
-     flex-wrap: wrap;
+
 }
 
 
 .my-projects .my-projects-container .my-projects-icons-box{
-     background-color: #FFF;
-     width: 46%;
-     min-height: 46rem;
-     /* height: 20rem; */
+     
      padding: 2rem;
      display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+
+
      border-radius: .5rem;  
 
      color: #000;
@@ -49,21 +45,31 @@
      margin-bottom: 4rem;
 }
 
-
+.my-projects .my-projects-container .my-projects-icons-box .image-box{
+     background-color: #FFF;
+     padding: 2rem;
+     width: 38rem;
+     border-radius: .5rem;
+}
 
 .my-projects .my-projects-container .my-projects-icons-box img{
-     width: 70%;
-     min-width: 30.395rem;
-     min-height: 23.644rem;
-     margin-bottom: 1rem;
+   width: 100%
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description{
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;
+     justify-content: flex-start;
+     align-items: flex-start;
+     color: #FFF;
+     padding: 3rem;
 }
+
+.my-projects .my-projects-container .my-projects-icons-box .left-description{
+     align-items: flex-end;
+}
+
+
 
 .my-projects .my-projects-container .my-projects-icons-box .my-projects-description h3{
 
@@ -76,7 +82,11 @@
 
      font-weight: 600;
      font-size: 1.6rem;
-     text-align: center;
+     text-align: left;
+}
+
+.my-projects .my-projects-container .my-projects-icons-box .left-description p{
+     text-align: end;
 }
 
 .my-projects .my-projects-container .my-projects-icons-box .used-project-tech{
