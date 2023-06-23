@@ -1,17 +1,25 @@
 import "./topPart.css";
 import {motion} from "framer-motion";
 import { animateScroll as scroll } from 'react-scroll';
-import {useState, useEffect, ChangeEvent} from "react";
+import {useState, useEffect} from "react";
+
 
 function TopPart(){
 
      const [isScrolling, setIsScrolling] = useState(false);
 
-     const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
-     const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
-          const file = event.target.files?.[0];
-          setSelectedFile(file || null);
+     const downloadCV = () => {
+          const fileUrl = '../../../public/Mario_frederico_curriculo-fullstack.pdf'; // Caminho do currículo
+
+          const link = document.createElement('a');
+          link.href = fileUrl;
+          link.target = '_blank';
+          link.download = 'curriculo-mariofrederico.pdf'; // Nome do arquivo de download
+
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
      };
 
      useEffect(() => {
@@ -108,15 +116,9 @@ function TopPart(){
                </div>
 
                <div className="btn-download-curriculum-container">
-                    <label className="btn-download-curriculum" htmlFor="file-input" id="file-label">
-                    {selectedFile ? selectedFile.name : 'Download CV'}
-                    </label>
-                    <input
-                    type="file"
-                    id="file-input"
-                    style={{ display: 'none' }}
-                    onChange={handleFileChange}
-                    />
+                    <button className="btn-download-curriculum" onClick={downloadCV}>Download CV
+                    </button>
+                    
                </div>               
           </div>
           
