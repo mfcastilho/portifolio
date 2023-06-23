@@ -48,9 +48,7 @@ function MyProjects(){
                                visible: { opacity: 1, y: 0 },
                           }}
                     >
-                         <div className="image-container">
-                              <img src="../../../public/projects-images/flamengo-crf-icon-carrosel.png" alt="" title="" />
-                         </div>
+
                          
                          <div className="image-box">
                               <img src="../../../public/projects-images/flamengo-crf-icon.svg" alt="" title="" />
