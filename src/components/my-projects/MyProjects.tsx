@@ -1,6 +1,4 @@
-import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import Glider from "glider-js";
 import "glider-js/glider.min.css";
 import "./myProjects.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,22 +6,6 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 function MyProjects(){
 
-     const gliderRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (gliderRef.current) {
-      new Glider(gliderRef.current, {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        draggable: true,
-        dots: ".my-projects-dots",
-        arrows: {
-          prev: ".my-projects-prev",
-          next: ".my-projects-next",
-        },
-      });
-    }
-  }, []);
 
      return(
           <motion.div className="my-projects" id="my-projects">
