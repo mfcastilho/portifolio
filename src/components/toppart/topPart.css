@@ -214,3 +214,43 @@
      color: #FFF;
      background-color: rgb(57, 56, 56);
 }
+
+
+
+
+
+
+/* -- MEDIA QUERIES -- */
+@media (max-width: 1223px){
+
+
+     .navbar-container{
+         flex-direction: column;
+         gap: 3rem;
+         align-items: center;
+     }
+
+     .navbar-container .right-part{
+          margin: 0 auto;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+     }
+
+     
+     .navbar-container .left-part{
+          width: 100%; 
+          display: flex;
+          justify-content: center; 
+     }
+     
+     
+     .navbar-container .left-part ul{
+          display: flex;
+          align-items: center;
+          gap: 7rem;
+          
+     }
+     
+  
+}
