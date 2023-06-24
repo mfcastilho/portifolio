@@ -26,6 +26,12 @@ function Contact(){
 
                toast.success("Mensagem enviada com sucesso!");
                console.log(resp);
+               setTimeout(()=>{
+                    setName("");
+                    setEmail("");
+                    setSubject("");
+                    setMessage("");
+               },6000)
                
           } catch (error) {
                console.log(error);

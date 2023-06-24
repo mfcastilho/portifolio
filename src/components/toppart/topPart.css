@@ -153,23 +153,6 @@
      color: #292727;
 }
 
-.top-part .top-part-container .left-part ul{
-     display: flex;
-     gap: 2rem;
-}
-
-.top-part .top-part-container .top-part-container .left-part ul li{
-     font-size: 1.4rem;
-     list-style: none;
-     
-}
-
-.top-part .top-part-container .left-part ul li a{
-     color: #dddada;
-     text-decoration: none;
-     font-weight: 600;
-}
-
 
 .top-part .top-part-container .right-part{
      display: flex;
@@ -253,4 +236,10 @@
      }
      
   
+}
+
+@media (max-width: 1042px){
+     .top-part .top-part-container div .navbar .navbar-container .left-part h2{
+          font-size: 3rem;
+     }
 }
