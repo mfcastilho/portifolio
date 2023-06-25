@@ -3,7 +3,7 @@
 
 .about-me {
      width: 100%;
-     min-width: 25.6rem;
+     min-width: 28.6rem;
      height: 100vh;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
@@ -53,6 +53,8 @@
      .about-me .about-me-description p{
           font-size: 1.6rem;
      }
+
+
 }
 
 
