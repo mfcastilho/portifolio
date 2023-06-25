@@ -4,7 +4,6 @@
 .about-me {
      width: 100%;
      min-width: 28.6rem;
-     height: 100vh;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;
@@ -40,7 +39,6 @@
 
 @media (min-width:300px) and (max-width:339px){
      .about-me{
-          height: 100vh;
           padding-top: 12rem;
      }
 
@@ -51,7 +49,6 @@
 
 @media (min-width:340px) and (max-width:439px){
      .about-me{
-          height: 100vh;
           padding-top: 10rem;
      }
 
@@ -61,10 +58,7 @@
 }
 
 @media (min-width:440px) and (max-width:539px){
-     .about-me{
-          height: 100vh;
-     }
-
+   
      .about-me h2{
           margin: 5rem 0 2rem 0; 
      }
@@ -75,7 +69,6 @@
 
 @media (min-width:540px) and (max-width:960px){
      .about-me{
-          height: 100vh;
           padding-top: 0;
      }
 
