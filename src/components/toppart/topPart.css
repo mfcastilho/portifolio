@@ -3,6 +3,7 @@
 /* -- COMPONENT --*/
 .top-part{
      width: 100%;
+     min-width: 25.6rem;
      flex-direction: column;
      background-image: url("../../../public/background-images/landscape.svg");
      background-size: cover;

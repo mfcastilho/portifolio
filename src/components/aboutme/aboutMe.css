@@ -3,6 +3,8 @@
 
 .about-me {
      width: 100%;
+     min-width: 25.6rem;
+     height: 100vh;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;
@@ -24,7 +26,7 @@
 }
 .about-me .about-me-description p{
      width: 100%;
-     font-size: 1.6rem;
+     font-size: 1.2rem;
      font-weight: 500;
      color: #1e1e1e;
      margin-bottom: 2.6rem;
@@ -34,6 +36,21 @@
 
 
 /*-- MEDIA QUERIE --*/
+
+@media (min-width:340px) and (max-width:539){
+     .about-me .about-me-description p{
+          font-size: 1.4rem;
+     }
+}
+
+@media (min-width:540px) and (max-width:960){
+     .about-me .about-me-description p{
+          font-size: 1.6rem;
+     }
+}
+
+
+
 @media (min-width:961px){
      
      .about-me {
