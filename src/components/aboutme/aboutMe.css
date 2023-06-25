@@ -11,12 +11,13 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     padding-top: 5rem;
 }
 
 .about-me h2{
      color: #0D0C0C;
      font-size: 2.6rem;
-     margin: 5rem 0; 
+     margin: 5rem 0 2rem 0; 
 }
 
 .about-me .about-me-description{
@@ -37,21 +38,54 @@
 
 /*-- MEDIA QUERIE --*/
 
-@media (min-width:340px) and (max-width:539){
+@media (min-width:300px) and (max-width:339px){
      .about-me{
           height: 100vh;
+          padding-top: 12rem;
+     }
+
+     .about-me h2{
+          margin: 5rem 0 0 0; 
+     }
+}
+
+@media (min-width:340px) and (max-width:439px){
+     .about-me{
+          height: 100vh;
+          padding-top: 10rem;
+     }
+
+     .about-me h2{
+          margin: 5rem 0 2rem 0; 
+     }
+}
+
+@media (min-width:440px) and (max-width:539px){
+     .about-me{
+          height: 100vh;
+     }
+
+     .about-me h2{
+          margin: 5rem 0 2rem 0; 
      }
      .about-me .about-me-description p{
           font-size: 1.4rem;
      }
 }
 
-@media (min-width:540px) and (max-width:960){
+@media (min-width:540px) and (max-width:960px){
      .about-me{
           height: 100vh;
+          padding-top: 0;
      }
+
+     .about-me h2{
+          margin: 10rem 0 2rem 0;
+     }
+
+
      .about-me .about-me-description p{
-          font-size: 1.6rem;
+          font-size: 1.7rem;
      }
 
 
