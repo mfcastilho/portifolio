@@ -1,9 +1,7 @@
 
 .my-projects {
      width: 100%;
-     margin: 0 auto;
-     padding: 0 14rem;
-     padding-top: 10rem;
+     min-width: 37.7rem;
      font-family: 'Poppins', sans-serif;
      display: flex;
      flex-direction: column;
@@ -14,80 +12,93 @@
 .my-projects h2{
      color: #0D0C0C;
      font-size: 2.6rem;
-     margin-bottom: 2rem;    
+     margin: 10rem 0 5rem 0; 
+     text-align: center;    
 }
 
 
 .my-projects .my-projects-container{
+     width: 100%;
      padding: 2rem 0;
      display: flex;
      flex-direction: column;
      align-items: center;
 }
 
-
-.my-projects .my-projects-container .my-projects-icons-box:last-child{
-     margin-bottom: 16rem;
+.my-projects-container-desktop{
+     width: 100%;
+     padding: 2rem 0;
+     display: none;
+     flex-direction: column;
+     align-items: center;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box{
+
+
+.my-projects-icons-box{
      display: flex;
+     flex-direction: column;
      border-radius: .5rem;  
      color: #000;
      text-decoration: none;
+     padding: 3rem;
      margin-bottom: 10rem;
 }
 
-
-.my-projects .my-projects-container .my-projects-icons-box .image-box{
-     background-color: #ACABAB;;
-     padding: 2rem .5rem;
+ .my-projects-icons-box:last-child{
+     margin-bottom: 8rem;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box img{
-   width: 64rem;
-   height: 30rem;
+
+
+ .my-projects-icons-box .image-box{
+     background-color: #ACABAB;;
+}
+
+
+ .my-projects-icons-box img{
+   width: 100%;
    border-radius: .3rem;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .my-projects-description{
+ .my-projects-icons-box .my-projects-description{
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
      align-items: center;
      color: #0D0C0C;
-     padding: 3rem .5rem;
+
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .left-description{
+ .my-projects-icons-box .left-description{
      align-items: center;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .my-projects-description h3{
+ .my-projects-icons-box .my-projects-description h3{
      font-weight: 800;
      font-size: 2.6rem;
      text-align: center;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .my-projects-description p{
+ .my-projects-icons-box .my-projects-description p{
      font-weight: 600;
      font-size: 1.4rem;
      text-align: center;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .left-description p{
+ .my-projects-icons-box .left-description p{
      text-align: center;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .used-project-tech{
+ .my-projects-icons-box .used-project-tech{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -99,12 +110,12 @@
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .used-project-tech .bullet{
+ .my-projects-icons-box .used-project-tech .bullet{
      width: .6rem;
 }
 
 
-.my-projects .my-projects-container .my-projects-icons-box .used-project-tech p{
+ .my-projects-icons-box .used-project-tech p{
      font-size: 1.2rem;    
 }
 
@@ -137,4 +148,287 @@
      background-color: #0D0C0C;
      border: none;
      color: #FFF;
+}
+
+
+
+
+
+
+
+/*-- MEDIA QUERIE --*/
+
+
+@media (min-width:961px) and (max-width:1024px){
+
+     .my-projects {
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 10%;
+          padding-top: 10rem;
+          font-family: 'Poppins', sans-serif;
+          display: flex;
+          flex-direction: column;
+          background-color: #ACABAB;
+     }
+     
+     
+     .my-projects h2{
+          margin: 2rem 0 2rem 0;   
+          text-align: left;
+     }
+     
+     
+     
+    
+     
+     
+     .my-projects-icons-box:last-child{
+          margin-bottom: 16rem;
+     }
+     
+     
+     .my-projects-icons-box .image-box{
+          background-color: #ACABAB;;
+          padding: 2rem .5rem;
+     }
+     
+     
+     .my-projects-icons-box img{
+        width: 64rem;
+        height: 30rem;
+        border-radius: .3rem;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          color: #0D0C0C;
+          padding: 3rem .5rem;
+     }
+     
+     
+     .my-projects-icons-box .left-description{
+          align-items: center;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description h3{
+          font-weight: 800;
+          font-size: 2.6rem;
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description p{
+          font-weight: 600;
+          font-size: 1.4rem;
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .left-description p{
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: .4rem;
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+          font-weight: 800;
+          margin-top: 2rem;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech .bullet{
+          width: .6rem;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech p{
+          font-size: 1.2rem;    
+     }
+     
+     
+     .btns-project-description-box{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          gap: 2rem;
+     }
+     
+     
+     .btns-project-description-box a{
+          min-width: 12rem;
+          padding: 1rem;
+          border:1px solid #0D0C0C;
+          background-color: transparent;
+          cursor: pointer;
+          color: #0D0C0C;
+          transition: .8s ease-in-out;
+          text-align: center;
+          text-decoration: none;
+          font-size: 1.3rem;
+     }
+     
+     
+     .btns-project-description-box a:hover{
+          background-color: #0D0C0C;
+          border: none;
+          color: #FFF;
+     }
+}
+
+
+@media (min-width:1025px){
+
+     .my-projects {
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 10%;
+          padding-top: 10rem;
+          font-family: 'Poppins', sans-serif;
+          display: flex;
+          flex-direction: column;
+          background-color: #ACABAB;
+     }
+     
+     
+     .my-projects h2{
+          margin: 2rem 0 2rem 0;   
+          text-align: left;
+     }
+     
+     
+     .my-projects .my-projects-container{
+          display: none;
+
+     }
+     .my-projects-container-desktop{
+          display: flex;
+     }
+     
+     
+     .my-projects-icons-box:last-child{
+          margin-bottom: 16rem;
+     }
+     
+     
+     .my-projects-icons-box{
+          display: flex;
+          flex-direction: row;
+          border-radius: .5rem;  
+          color: #000;
+          text-decoration: none;
+          margin-bottom: 10rem;
+     }
+     
+     
+     .my-projects-icons-box .image-box{
+          background-color: #ACABAB;;
+          padding: 2rem .5rem;
+     }
+     
+     
+     .my-projects-icons-box img{
+        width: 64rem;
+        height: 30rem;
+        border-radius: .3rem;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          color: #0D0C0C;
+          padding: 3rem .5rem;
+     }
+     
+     
+     .my-projects-icons-box .left-description{
+          align-items: center;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description h3{
+          font-weight: 800;
+          font-size: 2.6rem;
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .my-projects-description p{
+          font-weight: 600;
+          font-size: 1.4rem;
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .left-description p{
+          text-align: center;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: .4rem;
+          margin-bottom: 1rem;
+          font-size: 1.5rem;
+          font-weight: 800;
+          margin-top: 2rem;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech .bullet{
+          width: .6rem;
+     }
+     
+     
+     .my-projects-icons-box .used-project-tech p{
+          font-size: 1.2rem;    
+     }
+     
+     
+     .btns-project-description-box{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          gap: 2rem;
+     }
+     
+     
+     .btns-project-description-box a{
+          min-width: 12rem;
+          padding: 1rem;
+          border:1px solid #0D0C0C;
+          background-color: transparent;
+          cursor: pointer;
+          color: #0D0C0C;
+          transition: .8s ease-in-out;
+          text-align: center;
+          text-decoration: none;
+          font-size: 1.3rem;
+     }
+     
+     
+     .btns-project-description-box a:hover{
+          background-color: #0D0C0C;
+          border: none;
+          color: #FFF;
+     }
 }
