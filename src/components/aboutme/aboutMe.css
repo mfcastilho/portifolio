@@ -38,12 +38,18 @@
 /*-- MEDIA QUERIE --*/
 
 @media (min-width:340px) and (max-width:539){
+     .about-me{
+          height: 100vh;
+     }
      .about-me .about-me-description p{
           font-size: 1.4rem;
      }
 }
 
 @media (min-width:540px) and (max-width:960){
+     .about-me{
+          height: 100vh;
+     }
      .about-me .about-me-description p{
           font-size: 1.6rem;
      }

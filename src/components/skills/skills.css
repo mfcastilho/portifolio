@@ -1,6 +1,6 @@
 .skills{
      width: 100%;
-     min-width: 25.6rem;
+     height: 100vh;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;
@@ -24,7 +24,6 @@
      justify-content: center;
      gap: 2rem;
      flex-wrap: wrap;
-     padding-bottom: 16rem;
 }
 
 .background-icon{
@@ -72,11 +71,6 @@
           height: 100vh;
      }
 
-     .skills .skills-description{
-          padding-bottom: 16rem;
-     }
-
-
      .background-icon{
           width: 6.6rem;
           height: 6.6rem;
@@ -112,10 +106,6 @@
 
      .skills{
           height: 100vh;
-     }
-
-     .skills .skills-description{
-          padding-bottom: 16rem;
      }
 
      .background-icon{
@@ -156,10 +146,6 @@
           height: 100vh;
      }
 
-     .skills .skills-description{
-          padding-bottom: 16rem;
-     }
-
      .background-icon{
           width: 10.6rem;
           height: 10.6rem;
@@ -192,15 +178,11 @@
 
 
 @media (min-width:720px) and (max-width:960px){
-     
+
      .skills{
           height: 100vh;
      }
-
-     .skills .skills-description{
-          padding-bottom: 16rem;
-     }
-
+     
      .background-icon{
           width: 12.6rem;
           height: 12.6rem;
