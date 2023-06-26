@@ -15,8 +15,8 @@ function AboutMe(){
           
           >
 
-               <h2>Sobre mim</h2>
-               <div className="about-me-description">
+               <h2 className="about-me__title">Sobre mim</h2>
+               <div className="about-me__description">
                     
                     <p>"Sou graduado em análise e desenvolvimento de sistemas pela Unicesumar e formado no curso de desenvolvimento web fullstack pela Digital House. "</p>
 

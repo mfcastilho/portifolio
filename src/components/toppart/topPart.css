@@ -3,8 +3,8 @@
 /* -- COMPONENT --*/
 .top-part{
      width: 100%;
+     min-width: 37.7rem;
      height: 100vh;
-     min-width: 28.6rem;
      flex-direction: column;
      background-image: url("../../../public/background-images/landscape.svg");
      background-size: cover;
@@ -20,8 +20,9 @@
 }
 
 
-.navbar-container{
+.navbar__container{
      width: 100%;
+     min-width: 37.7rem;
      height: 7rem;
      padding: 3rem 3rem;
      position: fixed;
@@ -35,20 +36,20 @@
 
 
 
-.navbar-container .right-part{
+.navbar__container .navbar__right-part{
      gap: 3rem;
 }
 
-.navbar-container .right-part .menu-burguer img{
+.navbar__container .navbar__right-part .navbar__menu-burguer img{
      width: 3rem;
 }
 
-.navbar-container .right-part .social-media-icons-box{
+.navbar__container .navbar__right-part .social-media-icons-box{
      display:none;
 }
 
 
-.navbar-container .left-part ul{
+.navbar__container .navbar__left-part .navbar__menu{
      display: none;
 }
 
@@ -64,7 +65,9 @@
    
  
 /* -- TOP PART --*/
-.top-part-container{
+.top-part__container{
+     width: 100%;
+     min-width: 37.7rem;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -76,15 +79,15 @@
 
 
 
-.top-part .top-part-container div{
+.top-part .top-part__container div{
      text-align: center;
 }
 
-.left-part-desktop{
+.top-part__left-part-desktop{
      display: none;
 }
 
-.top-part .top-part-container .left-part{
+.top-part .top-part__container .top-part__left-part{
      margin-top: 7rem;
      display: flex;
      flex-direction: column;
@@ -92,55 +95,55 @@
      color: #0D0C0C;
 }
 
-.top-part .top-part-container .left-part h2{
+.top-part .top-part__container .top-part__left-part h2{
      font-size: 2rem;
 }
 
 
-.top-part .top-part-container .left-part h3{
+.top-part .top-part__container .top-part__left-part h3{
      color: #292727;
 }
 
 
-.top-part .top-part-container .left-part h6{
+.top-part .top-part__container .top-part__left-part h6{
      font-size: 1.2rem;
      color: #292727;
      width: 60%;
 }
 
 
-.top-part .top-part-container .right-part{
+.top-part .top-part__container .top-part__right-part{
      display: flex;
      justify-content: center;
      
 }
 
 
-.top-part .top-part-container .right-part img{
+.top-part .top-part__container .top-part__right-part img{
      border-radius: 50%;
      width: 15rem;
      height: 15rem;
 }
 
-.profile-image-desktop{
+.top-part__profile-image-desktop{
      display: none;
 }
 
-.profile-image-desktop img{
+.top-part__profile-image-desktop img{
      width: 20rem;
      height: 20rem;
      margin-right: 5rem;
      border-radius: 50%;
 }
 
-.btn-download-curriculum-container{
+.top-part__btn-download-curriculum__container{
      width: 100%;
      display: flex;
      justify-content: center;
 }
 
 
-.btn-download-curriculum{
+.top-part__btn-download-curriculum{
      margin-bottom: 16rem;
      display: flex;
      justify-content: center;
@@ -157,7 +160,7 @@
 }
 
 
-.btn-download-curriculum:hover{
+.top-part__btn-download-curriculum:hover{
      border: none;
      color: #FFF;
      background-color: rgb(57, 56, 56);
@@ -178,15 +181,7 @@
           height: 100vh;
           padding: 0 10%;
           margin: 0 auto;
-          display: flex;
-          flex-direction: column;
-          background-image: url("../../../public/background-images/landscape.svg");
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
      }
-     
-     
      
      
      /* -- NAV BAR--*/
@@ -196,7 +191,7 @@
      }
      
      
-     .navbar-container{
+     .navbar__container{
           width: 80%;
           justify-content: space-between;
           padding: 0;
@@ -204,17 +199,17 @@
 
    
      
-     .navbar-container .right-part{
+     .navbar__container .navbar__right-part{
           display: flex;
      }
 
      
-     .navbar-container .right-part .menu-burguer{
+     .navbar__container .navbar__right-part .navbar__menu-burguer{
           display: none;
      }
      
      
-     .navbar-container .right-part .social-media-icons-box{
+     .navbar__container .navbar__right-part .social-media-icons-box{
           width: 2.4rem;
           height: 2.4rem;
           display: flex;
@@ -225,21 +220,21 @@
           border: none;
      }
      
-     .navbar-container .right-part .social-media-icons-box img{
+     .navbar__container .navbar__right-part .social-media-icons-box img{
           width: 2rem;
           height: 2rem;
           border-radius: 50%;
      }
      
-     .navbar-container .left-part{
+     .navbar__container .navbar__left-part{
           width: 65%;
           
      }
-     .navbar-container .left-part .menu-burguer img{
+     .navbar__container .navbar__left-part .navbar__menu-burguer img{
           width: 3rem;
      }
 
-     .navbar-container .left-part ul{
+     .navbar__container .navbar__left-part .navbar__menu{
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -248,7 +243,7 @@
      }
      
      
-     .navbar-container .left-part ul li{
+     .navbar__container .navbar__left-part .navbar__menu li{
           list-style: none;
           font-size: 1.4rem;
           font-weight: 500;
@@ -256,7 +251,7 @@
      }
      
      
-     .navbar-container .left-part ul li::after{
+     .navbar__container .navbar__left-part .navbar__menu li::after{
          content: "";
          position: absolute;
          width: 0;
@@ -269,12 +264,12 @@
      }
      
      
-     .navbar-container .left-part ul li:hover::after{
+     .navbar__container .navbar__left-part .navbar__menu li:hover::after{
           width: 90%;
      }
      
      
-     .navbar-container .left-part ul li a{
+     .navbar__container .navbar__left-part .navbar__menu li a{
           color: #161212;
           text-decoration: none;
      }
@@ -298,43 +293,43 @@
      
      
      /* -- MENSAGEM E FOTO --*/
-     .top-part-container{
+     .top-part__container{
           flex-direction: row;
           padding: 6rem 0 5rem 0;
           /* margin-top: 5rem; */
      }
 
-     .left-part-desktop{
+     .top-part__left-part-desktop{
           display: inline;
      }
-     .left-part-mobile{
+     .top-part__left-part-mobile{
           display: none;
      }
      
-     .top-part .top-part-container .left-part{
+     .top-part .top-part__container .top-part__left-part{
           width: 88%;
           align-items: flex-start;
           color: #0D0C0C;
           margin-top: 8rem;
      }
      
-     .top-part .top-part-container .left-part h2{
+     .top-part .top-part__container .top-part__left-part h2{
           font-size: 3.6rem;
           margin-bottom: 2rem;  
      }
      
-     .top-part .top-part-container .left-part h6{
+     .top-part .top-part__container .top-part__left-part h6{
           font-size: 1.6rem;
           text-align: left;
           width: 100%;
      }
      
      
-     .top-part .top-part-container .right-part{
+     .top-part .top-part__container .top-part__right-part{
           display: none;
      }
 
-     .profile-image-desktop{
+     .top-part__profile-image-desktop{
           margin-top: 8rem;
           display: flex;
           justify-content: center;
@@ -342,7 +337,7 @@
      
     
        
-     .btn-download-curriculum{
+     .top-part__btn-download-curriculum{
           margin-bottom: 0;
           margin-top: 5rem;
      }

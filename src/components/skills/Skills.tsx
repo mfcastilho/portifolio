@@ -18,54 +18,54 @@ function Skills(){
           >
                
                     
-                    <h2>Skills</h2>
-                    <div className="skills-description"
+                    <h2 className="skills_title">Skills</h2>
+                    <div className="skills__description"
                          
                     >
-                         <motion.div className="skills-icons-box"
+                         <motion.div className="skills__icons-box"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img src="../../../public/icons/typescript_original_logo_icon_146317.svg" alt="typescript icon" title="typescript" />
                          </motion.div>
-                         <motion.div className="skills-icons-box"
+                         <motion.div className="skills__icons-box"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img src="../../../public/icons/javascript_original_logo_icon_146455.svg" alt="javascript icon" title="javascript" />
                          </motion.div>
-                         <motion.div className="skills-icons-box background-icon"
+                         <motion.div className="skills__icons-box skills__background-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img className="redimention-icon" src="../../../public/icons/file_type_reactjs_icon_130205.svg" alt="reactjs icon" title="reactjs" />
                          </motion.div>
-                         <motion.div className="skills-icons-box background-icon"
+                         <motion.div className="skills__icons-box skills__background-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img src="../../../public/icons/nodejs_plain_logo_icon_146409.svg" alt="nodejs icon" title="nodejs" />
                          </motion.div>
                          
-                         <motion.div className="skills-icons-box background-icon"
+                         <motion.div className="skills__icons-box skills__background-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img className="redimention-icon" src="../../../public/icons/express-js-icon.svg" alt="expressjs icon" title="expressjs" />
                          </motion.div>
-                         <motion.div className="skills-icons-box background-icon"
+                         <motion.div className="skills__icons-box skills__background-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img className="redimention-icon" src="../../../public/icons/sequelizejs_logo_icon_170747.svg" alt="sequelizejs icon" title="sequelizejs" />
                          </motion.div>
-                         <motion.div className="skills-icons-box background-icon mysql-icon"
+                         <motion.div className="skills__icons-box skills__background-icon mysql-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >
                               <img className="mysql-icon-image" src="../../../public/icons/mysql-seeklogo.com.svg" alt="mysql icon" title="mysql" />
                          </motion.div>
-                         <motion.div className="skills-icons-box background-icon"
+                         <motion.div className="skills__icons-box skills__background-icon"
                                whileHover={{ scale: 1.05 }} 
                                transition={{ duration: 0.3 }}
                          >

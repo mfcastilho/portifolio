@@ -1,7 +1,7 @@
 
 .academic-background {
      width: 100%;
-     min-width: 25.6rem;
+     min-width: 37.7rem;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;
@@ -9,7 +9,7 @@
 }
 
 
-.academic-background h2{
+.academic-background .academic-background__title{
      color: #0D0C0C;
      font-size: 2.6rem;
      margin: 5rem 0; 
@@ -17,7 +17,7 @@
 }
 
 
-.academic-background .academic-background-container{
+.academic-background .academic-background__container{
      padding: 3rem;
      display: flex;
      align-items: center;
@@ -26,7 +26,7 @@
 }
 
 
-.academic-background .academic-background-container .academic-background-icons-box{
+.academic-background .academic-background__container .academic-background__icons-box{
      width: 18rem;
      height: 16rem;
      display: flex;
@@ -37,13 +37,13 @@
 }
 
 
-.academic-background .academic-background-container .academic-background-icons-box img{
+.academic-background .academic-background__container .academic-background__icons-box img{
      width: 18rem;
      min-height: 6rem;
      margin-bottom: 1rem;
 }
 
-.academic-background .academic-background-container .academic-background-icons-box .academic-background-description{
+.academic-background .academic-background__container .academic-background__icons-box .academic-background__description{
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -52,13 +52,13 @@
 
 
 
-.academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:first-child{
+.academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:first-child{
      font-weight: 800;
      font-size: 1.4rem;
      text-align: center;
 }
 
-.academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:last-child{
+.academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:last-child{
      font-weight: 600;
      font-size: 1rem;
      text-align: center;
@@ -77,12 +77,12 @@
           padding-top: 10rem;
      }
 
-     .academic-background .academic-background-container{
+     .academic-background .academic-background__container{
           padding: 3rem 8rem;
           gap: 3rem;
      }
      
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           width: 20rem;
           height: 18rem;
           display: flex;
@@ -92,7 +92,7 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 18rem;
           min-height: 11rem;
           margin-bottom: 1rem;
@@ -104,7 +104,7 @@
      .academic-background {
           padding-top: 10rem;
      }
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           width: 21rem;
           height: 18rem;
           display: flex;
@@ -114,7 +114,7 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 20rem;
           min-height: 11rem;
           margin-bottom: 1rem;
@@ -127,11 +127,11 @@
           padding-top: 10rem;
      }
 
-     .academic-background .academic-background-container{
+     .academic-background .academic-background__container{
           padding: 3rem 12rem;
           gap: 1rem;
      }
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           width: 22rem;
           height: 20rem;
           display: flex;
@@ -141,7 +141,7 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 20rem;
           min-height: 11rem;
           margin-bottom: 1rem;
@@ -165,20 +165,20 @@
      }
      
      
-     .academic-background h2{
+     .academic-background .academic-background__title{
           color: #0D0C0C;
           font-size: 2.6rem;
           margin-bottom: 2rem;     
      }
      
      
-     .academic-background .academic-background-container{
+     .academic-background .academic-background__container{
           padding: 3rem 8rem;
 
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           background-color: #FFF;
           width: 21rem;
           height: 20rem;
@@ -190,13 +190,13 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 21rem;
           min-height: 11rem;
           margin-bottom: 1rem;
      }
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description{
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -205,13 +205,13 @@
      
      
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:first-child{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:first-child{
           font-weight: 800;
           font-size: 1.4rem;
           text-align: center;
      }
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:last-child{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:last-child{
           font-weight: 600;
           font-size: 1rem;
           text-align: center;
@@ -229,25 +229,25 @@
           margin-bottom: 5rem;
      }
      
-     .academic-background-container{
+     .academic-background__container{
           gap: 3rem;
           
      }
      
-     .academic-background h2{
+     .academic-background .academic-background__title{
           text-align: left;    
      }
      
-     .academic-background .academic-background-container{
+     .academic-background .academic-background__container{
           padding: 3rem 11rem;
      }
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           width: 21rem;
           height: 20rem;
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 21rem;
           min-height: 11rem;
           margin-bottom: 1rem;
@@ -271,19 +271,19 @@
      }
      
 
-     .academic-background h2{
+     .academic-background .academic-background__title{
           text-align: left;    
      }
      
      
-     .academic-background h2{
+     .academic-background .academic-background__title{
           color: #0D0C0C;
           font-size: 2.6rem;
           margin-bottom: 2rem;     
      }
      
      
-     .academic-background .academic-background-container{
+     .academic-background .academic-background__container{
           padding: 3rem;
           border-radius: .8rem;
           display: flex;
@@ -292,7 +292,7 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box{
+     .academic-background .academic-background__container .academic-background__icons-box{
           background-color: #FFF;
           width: 21rem;
           height: 20rem;
@@ -304,13 +304,13 @@
      }
      
      
-     .academic-background .academic-background-container .academic-background-icons-box img{
+     .academic-background .academic-background__container .academic-background__icons-box img{
           width: 21rem;
           min-height: 11rem;
           margin-bottom: 1rem;
      }
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description{
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -319,13 +319,13 @@
      
      
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:first-child{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:first-child{
           font-weight: 800;
           font-size: 1.4rem;
           text-align: center;
      }
      
-     .academic-background .academic-background-container .academic-background-icons-box .academic-background-description p:last-child{
+     .academic-background .academic-background__container .academic-background__icons-box .academic-background__description p:last-child{
           font-weight: 600;
           font-size: 1rem;
           text-align: center;

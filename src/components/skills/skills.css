@@ -1,6 +1,6 @@
 .skills{
      width: 100%;
-     min-width: 25.6rem;
+     min-width: 37.7rem;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;
@@ -10,7 +10,7 @@
 }
 
 
-.skills h2{
+.skills .skills_title{
      color: #0D0C0C;
      font-size: 2.6rem;
      margin: 10rem 0 5rem 0; 
@@ -18,7 +18,7 @@
 }
 
 
-.skills .skills-description{
+.skills .skills__description{
      padding: 3rem;
      display: flex;
      justify-content: center;
@@ -29,7 +29,7 @@
 
 
 
-.background-icon{
+.skills__background-icon{
      background-color: #FFF;
      width: 8.4rem;
      height: 8.4rem;
@@ -41,18 +41,18 @@
 }
 
 
-.skills .skills-description .skills-icons-box img{
+.skills .skills__description .skills__icons-box img{
      width: 8.4rem;
      border-radius: .4rem;
 }
 
 
-.skills .skills-description .skills-icons-box .postgres-icon{
+.skills .skills__description .skills__icons-box .postgres-icon{
      width: 8.2rem;
 }
 
 
-.skills .skills-description .skills-icons-box .mysql-icon-image{
+.skills .skills__description .skills__icons-box .mysql-icon-image{
      width: 8.2rem;
      margin-left: 10%;  
 }
@@ -62,7 +62,7 @@
 }
 
 
-.skills .skills-description .skills-icons-box .redimention-icon{
+.skills .skills__description .skills__icons-box .redimention-icon{
      width: 8rem;  
 }
 
@@ -70,23 +70,23 @@
 
 @media (min-width:376px) and (max-width:460px){
 
-     .background-icon{
+     .skills__background-icon{
           width: 8.4rem;
           height: 8.4rem;
      }
      
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 8.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 8.4rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 8.4rem;
      }
      
@@ -95,7 +95,7 @@
      }
      
      
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 8rem;  
      }
 }
@@ -104,27 +104,27 @@
 @media (min-width:460px) and (max-width:559px){
 
 
-     .skills h2{
+     .skills .skills_title{
           margin: 10rem 0 5rem 0; 
      }
 
-     .background-icon{
+     .skills__background-icon{
           width: 10.6rem;
           height: 10.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 10.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 10.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 10.2rem;
      }
      
@@ -133,7 +133,7 @@
      }
      
      
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 10rem;  
      }
 }
@@ -142,27 +142,27 @@
 
 @media (min-width:560px) and (max-width:719px){
 
-     .skills h2{
+     .skills .skills_title{
           margin: 10rem 0 5rem 0; 
      }
 
-     .background-icon{
+     .skills__background-icon{
           width: 10.6rem;
           height: 10.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 10.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 10.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 10.2rem;
      }
      
@@ -171,7 +171,7 @@
      }
      
      
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 10rem;  
      }
 }
@@ -180,27 +180,27 @@
 @media (min-width:720px) and (max-width:960px){
 
 
-     .skills h2{
+     .skills .skills_title{
           margin: 10rem 0 5rem 0; 
      }
      
-     .background-icon{
+     .skills__background-icon{
           width: 14.6rem;
           height: 14.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 14.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 14.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 14.2rem;
      }
      
@@ -209,7 +209,7 @@
      }
      
      
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 13rem;  
      }
 }
@@ -226,29 +226,29 @@
           align-items: flex-start;
      }
      
-     .skills h2{
+     .skills .skills_title{
           text-align: left;
           margin: 5rem 0; 
      }
 
      
-     .background-icon{
+     .skills__background-icon{
           width: 14.6rem;
           height: 14.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 14.6rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 14.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 14.2rem;
      }
      
@@ -257,7 +257,7 @@
      }
      
      
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 14rem;  
      }
 }
@@ -274,26 +274,26 @@
           align-items: flex-start;
      }
 
-     .background-icon{
+     .skills__background-icon{
           width: 16.8rem;
           height: 16.8rem;
      }
 
-     .skills h2{
+     .skills .skills_title{
           text-align: left;
           margin: 5rem 0; 
      }
      
-     .skills .skills-description .skills-icons-box img{
+     .skills .skills__description .skills__icons-box img{
           width: 16.8rem;
      }
      
-     .skills .skills-description .skills-icons-box .postgres-icon{
+     .skills .skills__description .skills__icons-box .postgres-icon{
           width: 16.2rem;
      }
      
      
-     .skills .skills-description .skills-icons-box .mysql-icon-image{
+     .skills .skills__description .skills__icons-box .mysql-icon-image{
           width: 16.2rem;
      }
      
@@ -301,7 +301,7 @@
           background-color: #204564;
      }
         
-     .skills .skills-description .skills-icons-box .redimention-icon{
+     .skills .skills__description .skills__icons-box .redimention-icon{
           width: 16rem;  
      }
 }
