@@ -9,7 +9,7 @@
 }
 
 
-.my-projects h2{
+.my-projects .my-projects__title{
      color: #0D0C0C;
      font-size: 2.6rem;
      margin: 10rem 0 5rem 0; 
@@ -17,7 +17,7 @@
 }
 
 
-.my-projects .my-projects-container{
+.my-projects .my-projects__container{
      width: 100%;
      padding: 2rem 0;
      display: flex;
@@ -25,7 +25,7 @@
      align-items: center;
 }
 
-.my-projects-container-desktop{
+.my-projects__container-desktop{
      width: 100%;
      padding: 2rem 0;
      display: none;
@@ -36,7 +36,7 @@
 
 
 
-.my-projects-icons-box{
+.my-projects__icons-box{
      display: flex;
      flex-direction: column;
      border-radius: .5rem;  
@@ -46,25 +46,25 @@
      margin-bottom: 10rem;
 }
 
- .my-projects-icons-box:last-child{
+ .my-projects__icons-box:last-child{
      margin-bottom: 8rem;
 }
 
 
 
 
- .my-projects-icons-box .image-box{
+ .my-projects__icons-box .my-projects__image-box{
      background-color: #ACABAB;;
 }
 
 
- .my-projects-icons-box img{
+ .my-projects__icons-box img{
    width: 100%;
    border-radius: .3rem;
 }
 
 
- .my-projects-icons-box .my-projects-description{
+ .my-projects__icons-box .my-projects__description{
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
@@ -74,31 +74,31 @@
 }
 
 
- .my-projects-icons-box .left-description{
+ .my-projects__icons-box .my-projects__left-description{
      align-items: center;
 }
 
 
- .my-projects-icons-box .my-projects-description h3{
+ .my-projects__icons-box .my-projects__description h3{
      font-weight: 800;
      font-size: 2.6rem;
      text-align: center;
 }
 
 
- .my-projects-icons-box .my-projects-description p{
+ .my-projects__icons-box .my-projects__description p{
      font-weight: 600;
      font-size: 1.4rem;
      text-align: center;
 }
 
 
- .my-projects-icons-box .left-description p{
+ .my-projects__icons-box .my-projects__left-description p{
      text-align: center;
 }
 
 
- .my-projects-icons-box .used-project-tech{
+ .my-projects__icons-box .my-projects__used-project-tech{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -110,17 +110,17 @@
 }
 
 
- .my-projects-icons-box .used-project-tech .bullet{
+ .my-projects__icons-box .my-projects__used-project-tech .bullet{
      width: .6rem;
 }
 
 
- .my-projects-icons-box .used-project-tech p{
+ .my-projects__icons-box .my-projects__used-project-tech p{
      font-size: 1.2rem;    
 }
 
 
-.btns-project-description-box{
+.my-projects__btns-project-description-box{
      width: 100%;
      height: 100%;
      display: flex;
@@ -130,7 +130,7 @@
 }
 
 
-.btns-project-description-box a{
+.my-projects__btns-project-description-box a{
      min-width: 12rem;
      padding: 1rem;
      border:1px solid #0D0C0C;
@@ -144,7 +144,7 @@
 }
 
 
-.btns-project-description-box a:hover{
+.my-projects__btns-project-description-box a:hover{
      background-color: #0D0C0C;
      border: none;
      color: #FFF;
@@ -173,7 +173,7 @@
      }
      
      
-     .my-projects h2{
+     .my-projects .my-projects__title{
           margin: 2rem 0 2rem 0;   
           text-align: left;
      }
@@ -183,25 +183,25 @@
     
      
      
-     .my-projects-icons-box:last-child{
+     .my-projects__icons-box:last-child{
           margin-bottom: 16rem;
      }
      
      
-     .my-projects-icons-box .image-box{
+     .my-projects__icons-box .my-projects__image-box{
           background-color: #ACABAB;;
           padding: 2rem .5rem;
      }
      
      
-     .my-projects-icons-box img{
+     .my-projects__icons-box img{
         width: 64rem;
         height: 30rem;
         border-radius: .3rem;
      }
      
      
-     .my-projects-icons-box .my-projects-description{
+     .my-projects__icons-box .my-projects__description{
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -211,31 +211,31 @@
      }
      
      
-     .my-projects-icons-box .left-description{
+     .my-projects__icons-box .my-projects__left-description{
           align-items: center;
      }
      
      
-     .my-projects-icons-box .my-projects-description h3{
+     .my-projects__icons-box .my-projects__description h3{
           font-weight: 800;
           font-size: 2.6rem;
           text-align: center;
      }
      
      
-     .my-projects-icons-box .my-projects-description p{
+     .my-projects__icons-box .my-projects__description p{
           font-weight: 600;
           font-size: 1.4rem;
           text-align: center;
      }
      
      
-     .my-projects-icons-box .left-description p{
+     .my-projects__icons-box .my-projects__left-description p{
           text-align: center;
      }
      
      
-     .my-projects-icons-box .used-project-tech{
+     .my-projects__icons-box .my-projects__used-project-tech{
           display: flex;
           justify-content: center;
           align-items: center;
@@ -247,17 +247,17 @@
      }
      
      
-     .my-projects-icons-box .used-project-tech .bullet{
+     .my-projects__icons-box .my-projects__used-project-tech .bullet{
           width: .6rem;
      }
      
      
-     .my-projects-icons-box .used-project-tech p{
+     .my-projects__icons-box .my-projects__used-project-tech p{
           font-size: 1.2rem;    
      }
      
      
-     .btns-project-description-box{
+     .my-projects__btns-project-description-box{
           width: 100%;
           height: 100%;
           display: flex;
@@ -267,7 +267,7 @@
      }
      
      
-     .btns-project-description-box a{
+     .my-projects__btns-project-description-box a{
           min-width: 12rem;
           padding: 1rem;
           border:1px solid #0D0C0C;
@@ -281,7 +281,7 @@
      }
      
      
-     .btns-project-description-box a:hover{
+     .my-projects__btns-project-description-box a:hover{
           background-color: #0D0C0C;
           border: none;
           color: #FFF;
@@ -303,27 +303,27 @@
      }
      
      
-     .my-projects h2{
+     .my-projects .my-projects__title{
           margin: 2rem 0 2rem 0;   
           text-align: left;
      }
      
      
-     .my-projects .my-projects-container{
+     .my-projects .my-projects__container{
           display: none;
 
      }
-     .my-projects-container-desktop{
+     .my-projects__container-desktop{
           display: flex;
      }
      
      
-     .my-projects-icons-box:last-child{
+     .my-projects__icons-box:last-child{
           margin-bottom: 16rem;
      }
      
      
-     .my-projects-icons-box{
+     .my-projects__icons-box{
           display: flex;
           flex-direction: row;
           border-radius: .5rem;  
@@ -333,20 +333,20 @@
      }
      
      
-     .my-projects-icons-box .image-box{
+     .my-projects__icons-box .my-projects__image-box{
           background-color: #ACABAB;;
           padding: 2rem .5rem;
      }
      
      
-     .my-projects-icons-box img{
+     .my-projects__icons-box img{
         width: 64rem;
         height: 30rem;
         border-radius: .3rem;
      }
      
      
-     .my-projects-icons-box .my-projects-description{
+     .my-projects__icons-box .my-projects__description{
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -356,31 +356,31 @@
      }
      
      
-     .my-projects-icons-box .left-description{
+     .my-projects__icons-box .my-projects__left-description{
           align-items: center;
      }
      
      
-     .my-projects-icons-box .my-projects-description h3{
+     .my-projects__icons-box .my-projects__description h3{
           font-weight: 800;
           font-size: 2.6rem;
           text-align: center;
      }
      
      
-     .my-projects-icons-box .my-projects-description p{
+     .my-projects__icons-box .my-projects__description p{
           font-weight: 600;
           font-size: 1.4rem;
           text-align: center;
      }
      
      
-     .my-projects-icons-box .left-description p{
+     .my-projects__icons-box .my-projects__left-description p{
           text-align: center;
      }
      
      
-     .my-projects-icons-box .used-project-tech{
+     .my-projects__icons-box .my-projects__used-project-tech{
           display: flex;
           justify-content: center;
           align-items: center;
@@ -392,17 +392,17 @@
      }
      
      
-     .my-projects-icons-box .used-project-tech .bullet{
+     .my-projects__icons-box .my-projects__used-project-tech .bullet{
           width: .6rem;
      }
      
      
-     .my-projects-icons-box .used-project-tech p{
+     .my-projects__icons-box .my-projects__used-project-tech p{
           font-size: 1.2rem;    
      }
      
      
-     .btns-project-description-box{
+     .my-projects__btns-project-description-box{
           width: 100%;
           height: 100%;
           display: flex;
@@ -412,7 +412,7 @@
      }
      
      
-     .btns-project-description-box a{
+     .my-projects__btns-project-description-box a{
           min-width: 12rem;
           padding: 1rem;
           border:1px solid #0D0C0C;
@@ -426,7 +426,7 @@
      }
      
      
-     .btns-project-description-box a:hover{
+     .my-projects__btns-project-description-box a:hover{
           background-color: #0D0C0C;
           border: none;
           color: #FFF;
