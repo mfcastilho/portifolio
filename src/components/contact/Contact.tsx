@@ -52,7 +52,7 @@ function Contact(){
                }}
           >
                <ToastContainer />
-               <h2>Contato</h2>
+               <h2 className="contact__title">Contato</h2>
                <div className="contact__container">
                     <p className="contact__first-paragraph">Quer entrar em contato comigo?</p>
                     <p className="contact__second-paragraph">Preencha o formulário entrarei em contato o mais rápido possível.</p>
