@@ -53,20 +53,20 @@ function Contact(){
           >
                <ToastContainer />
                <h2>Contato</h2>
-               <div className="contact-elements-box">
-                    <p>Quer entrar em contato comigo?</p>
-                    <p className="paragraph2">Preencha o formulário entrarei em contato o mais rápido possível.</p>
+               <div className="contact__container">
+                    <p className="contact__first-paragraph">Quer entrar em contato comigo?</p>
+                    <p className="contact__second-paragraph">Preencha o formulário entrarei em contato o mais rápido possível.</p>
                     <form onSubmit={handleSubmit} action="https://hotmail.us8.list-manage.com/subscribe/post?u=2ce863bd9b2eb5d7ac800d486&amp;id=ddfa824621&amp;f_id=006876e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
                          <input value={name} onChange={(e)=> setName(e.target.value)} type="text" name="NAME" placeholder="Nome:" required/>
                          <input value={email} onChange={(e)=> setEmail(e.target.value)} type="email" name="EMAIL" placeholder="Email:"  required/>
                          <input value={subject} onChange={(e)=> setSubject(e.target.value)} type="text" name="SUBJECT" placeholder="Assunto:" required/>
                          <textarea value={message} onChange={(e)=> setMessage(e.target.value)} name="MESSAGE" id="" placeholder="Mensagem:" required></textarea>
-                         <button type="submit">Enviar</button>
+                         <button className="contact__button" type="submit">Enviar</button>
                     </form>
                     
                </div>
                <div className="footer">
-                    <h6>&copy;Copyright 2023 - Desenvolvido por Mario Frederico de Castilho</h6>
+                    <h6 className="footer__text">&copy;Copyright 2023 - Desenvolvido por Mario Frederico de Castilho</h6>
                </div>
           </motion.div>
      );

@@ -17,7 +17,7 @@
 }
 
 
-.contact .contact-elements-box{
+.contact .contact__container{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -26,19 +26,19 @@
 }
 
 
-.contact .contact-elements-box p{
+.contact .contact__container p{
      font-size: 1.6rem;
      font-weight: 500;
 
 }
 
 
-.contact .contact-elements-box .paragraph2{
+.contact .contact__container .contact__second-paragraph{
      margin-bottom: 1rem;
 }
 
 
-.contact .contact-elements-box form{
+.contact .contact__container form{
      width: 80%;
      display: flex;
      flex-direction: column;
@@ -46,7 +46,7 @@
 }
 
 
-.contact .contact-elements-box form input{
+.contact .contact__container form input{
      height: 3rem;
      padding: 1rem;
      font-size: 1.4rem;
@@ -56,12 +56,12 @@
 }
 
 
-.contact .contact-elements-box form input:focus{
+.contact .contact__container form input:focus{
      outline: 0;
 }
 
 
-.contact .contact-elements-box form textarea{
+.contact .contact__container form textarea{
      height: 16rem;
      padding: 1rem;
      font-size: 1.4rem;
@@ -71,12 +71,12 @@
 }
 
 
-.contact .contact-elements-box form textarea:focus{
+.contact .contact__container form textarea:focus{
      outline: 0;
 }
 
 
-.contact .contact-elements-box form button{
+.contact .contact__container form .contact__button{
      height: 4rem;
      width: 100%;
      background-color: transparent;
@@ -88,7 +88,7 @@
 }
 
 
-.contact .contact-elements-box form button:hover{
+.contact .contact__container form button:hover{
      cursor: pointer;
      background-color: #0D0C0C;
      color: #FFF;
@@ -107,7 +107,7 @@
 }
 
 
-.footer h6{
+.footer .footer__text{
      font-size: 1.3rem;
      font-weight: 400;
      color: #0D0C0C;
