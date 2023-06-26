@@ -1,22 +1,19 @@
 .contact{
      width: 100%;
-     height: 100vh;
-     margin: 0 auto;
-     margin-bottom: 2rem;
-     padding: 0 14rem;
-     padding-top: 8rem;
-     padding-bottom: 5rem;
+     min-width: 37.7rem;
      display: flex;
      flex-direction: column;
      color: #FFF;
      font-family: 'Poppins', sans-serif;
+     margin: 15rem 0 0 0;
 }
 
 
 .contact h2{
      color: #0D0C0C;
      font-size: 2.6rem;
-     margin-bottom: 2rem;   
+     margin: 0 0 5rem 0; 
+     text-align: center;  
 }
 
 
@@ -25,6 +22,7 @@
      flex-direction: column;
      align-items: center;
      color: #FFF;
+     margin-bottom: 8rem;
 }
 
 
@@ -114,3 +112,31 @@
      font-weight: 400;
      color: #0D0C0C;
 }
+
+
+
+
+
+/*-- MEDIA QUERIE --*/
+
+
+@media (min-width:961px){
+
+     .contact{
+          height: 100vh;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+          padding: 0 10%;
+          padding-top: 10rem;
+          padding-bottom: 5rem;
+     }
+     
+     
+     .contact h2{
+          text-align: left;    
+          margin: 0; 
+     }
+     
+}
+
+
