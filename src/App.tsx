@@ -5,7 +5,7 @@ import AboutMe from './components/aboutme/AboutMe';
 import Skills from './components/skills/Skills';
 import AcademicBackground from './components/academic-background/AcademicBackground';
 import MyProjects from './components/my-projects/MyProjects';
-// import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
                <Skills />
                <AcademicBackground />
                <MyProjects />
-               {/* <Contact/> */}
+               <Contact/>
           </div>
      )
 }

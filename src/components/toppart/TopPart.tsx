@@ -8,8 +8,6 @@ function TopPart(){
 
      const [isScrolling, setIsScrolling] = useState(false);
 
-     const isMobile = window.matchMedia('(max-width: 960px)').matches;
-
 
      const downloadCV = () => {
           const fileUrl = '../../../public/Mario_frederico_curriculo-fullstack.pdf'; // Caminho do currículo
