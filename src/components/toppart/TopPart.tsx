@@ -7,7 +7,7 @@ import {useState, useEffect} from "react";
 function TopPart(){
 
      const [isScrolling, setIsScrolling] = useState(false);
-
+     const [showMenuMobileElements, setShowMenuMobileElements] = useState(false);
 
      const downloadCV = () => {
           const fileUrl = '../../../public/Mario_frederico_curriculo-fullstack.pdf'; // Caminho do currículo
@@ -52,6 +52,43 @@ function TopPart(){
                });
           } 
      }
+
+     function selectMenuMobile(event:React.MouseEvent<HTMLElement>){
+          event.preventDefault();
+          console.log("Clicou");
+          
+          const menuMobileElements:HTMLElement | null = document.querySelector(".navbar__menu-mobile-elements__container");
+          const menuMobile:HTMLElement | null= document.querySelector(".navbar__menu-burguer");
+          
+          if(menuMobile != null) menuMobile.style.display = "none";         
+          if(menuMobileElements != null) menuMobileElements.style.display = "flex";     
+     }
+
+     function selectQuitButton(){
+          const menuMobileElements:HTMLElement | null = document.querySelector(".navbar__menu-mobile-elements__container");
+          const menuMobile:HTMLElement | null= document.querySelector(".navbar__menu-burguer");
+          if(menuMobile != null) menuMobile.style.display = "flex";
+          if(menuMobileElements != null) menuMobileElements.style.display = "none";   
+     }
+
+     useEffect(() => {
+          function handleResize(){
+               if(window.innerWidth < 961){
+                    setShowMenuMobileElements(true);
+                    const menuMobile:any = document.querySelector(".navbar__menu-burguer");
+                    menuMobile.style.display = "flex";
+               }else{
+                    setShowMenuMobileElements(false);
+                    const menuMobileElements:any = document.querySelector(".navbar__menu-mobile-elements__container");
+                    menuMobileElements.style.display = "none";
+               }
+          }
+          handleResize();
+          window.addEventListener('resize', handleResize);
+          return () => {
+            window.removeEventListener('resize', handleResize);
+          };
+     },[]);
      
      return(
           <div className="top-part" id="home">
@@ -70,9 +107,33 @@ function TopPart(){
                     </div>
 
                     <div className="navbar__right-part">
-                         <div className="navbar__menu-burguer">
+                         <div onClick={selectMenuMobile} className="navbar__menu-burguer">
                               <img src="../../../public/icons/menu-burguer.svg" alt="" />
                          </div>
+                         
+                         <motion.div className="navbar__menu-mobile-elements__container"
+                              initial="hidden"
+                              whileInView="visible"
+                              viewport={{ amount: 0.5 }}
+                              transition={{ delay: 0.1, duration: 0.5 }}
+                              variants={{
+                              hidden: { opacity: 0, x: 20 },
+                              visible: { opacity: 0.5, x: 0 },
+                              }}
+                         >
+                              <ul className="navbar__menu-mobile-elements__list">
+                                   <li><a href="#home" onClick={() => handleClick("home")}>Home</a></li>
+                                   <li><a href="#about-me" onClick={() => handleClick("about-me")}>Sobre mim</a></li>
+                                   <li><a href="#skills" onClick={() => handleClick("skills")}>Skills</a></li>
+                                   <li><a href="#training" onClick={() => handleClick("training")}>Formação</a></li>
+                                   <li><a href="#my-projects" onClick={() => handleClick("my-projects")}>Projetos</a></li>
+                                   <li><a href="#contact" onClick={() => handleClick("contact")}>Contato</a></li>
+                                   <li onClick={selectQuitButton} 
+                                   >Sair</li>
+                              </ul>
+                              
+                         </motion.div>
+
                          <a href="https://github.com/mfcastilho" target="_blank">
                          <div className="social-media-icons-box">
                               <img src="../../../public/icons/github-icon.svg" alt="" className="github-icon" />

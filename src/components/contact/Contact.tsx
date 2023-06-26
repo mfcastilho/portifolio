@@ -54,8 +54,7 @@ function Contact(){
                <ToastContainer />
                <h2 className="contact__title">Contato</h2>
                <div className="contact__container">
-                    <p className="contact__first-paragraph">Quer entrar em contato comigo?</p>
-                    <p className="contact__second-paragraph">Preencha o formulário entrarei em contato o mais rápido possível.</p>
+                    
                     <form onSubmit={handleSubmit} action="https://hotmail.us8.list-manage.com/subscribe/post?u=2ce863bd9b2eb5d7ac800d486&amp;id=ddfa824621&amp;f_id=006876e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
                          <input value={name} onChange={(e)=> setName(e.target.value)} type="text" name="NAME" placeholder="Nome:" required/>
                          <input value={email} onChange={(e)=> setEmail(e.target.value)} type="email" name="EMAIL" placeholder="Email:"  required/>

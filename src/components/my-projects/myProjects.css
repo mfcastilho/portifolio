@@ -146,7 +146,6 @@
 
 .my-projects__btns-project-description-box a:hover{
      background-color: #0D0C0C;
-     border: none;
      color: #FFF;
 }
 
@@ -266,26 +265,6 @@
           gap: 2rem;
      }
      
-     
-     .my-projects__btns-project-description-box a{
-          min-width: 12rem;
-          padding: 1rem;
-          border:1px solid #0D0C0C;
-          background-color: transparent;
-          cursor: pointer;
-          color: #0D0C0C;
-          transition: .8s ease-in-out;
-          text-align: center;
-          text-decoration: none;
-          font-size: 1.3rem;
-     }
-     
-     
-     .my-projects__btns-project-description-box a:hover{
-          background-color: #0D0C0C;
-          border: none;
-          color: #FFF;
-     }
 }
 
 
@@ -412,23 +391,5 @@
      }
      
      
-     .my-projects__btns-project-description-box a{
-          min-width: 12rem;
-          padding: 1rem;
-          border:1px solid #0D0C0C;
-          background-color: transparent;
-          cursor: pointer;
-          color: #0D0C0C;
-          transition: .8s ease-in-out;
-          text-align: center;
-          text-decoration: none;
-          font-size: 1.3rem;
-     }
      
-     
-     .my-projects__btns-project-description-box a:hover{
-          background-color: #0D0C0C;
-          border: none;
-          color: #FFF;
-     }
 }

@@ -218,7 +218,6 @@
 @media (min-width:961px) and (max-width:1024px){
 
      .skills{
-          height: 100vh;
           margin: 0 auto;
           padding: 0 10%;
           padding-top: 8rem;
@@ -228,7 +227,7 @@
      
      .skills .skills_title{
           text-align: left;
-          margin: 5rem 0; 
+          margin: 8rem 0; 
      }
 
      
@@ -266,7 +265,6 @@
 @media (min-width:1025px){
 
      .skills{
-          height: 100vh;
           margin: 0 auto;
           padding: 0 10%;
           padding-top: 8rem;
