@@ -9,6 +9,7 @@ function TopPart(){
      const [isScrolling, setIsScrolling] = useState(false);
      const [showMenuMobileElements, setShowMenuMobileElements] = useState(false);
 
+
      const downloadCV = () => {
           const fileUrl = '../../../public/Mario_frederico_curriculo-fullstack.pdf'; // Caminho do currículo
 
@@ -42,8 +43,15 @@ function TopPart(){
         }, []);
 
      function handleClick(sectionId: string){
-          console.log(sectionId);
+
+          const menuMobileElements:HTMLElement | null = document.querySelector(".navbar__menu-mobile-elements__container");
+
+          const menuMobile:HTMLElement | null= document.querySelector(".navbar__menu-burguer");   
+
+          if(menuMobileElements != null) menuMobileElements.style.display = "none";  
+
           const element = document.getElementById(sectionId);
+          
           if(element){
                const offsetTop = element.offsetTop;
                scroll.scrollTo(offsetTop, {
@@ -51,6 +59,11 @@ function TopPart(){
                     smooth: true,
                });
           } 
+          
+          setTimeout(()=>{
+               if(menuMobile != null) menuMobile.style.display = "flex";
+          },300)
+            
      }
 
      function selectMenuMobile(event:React.MouseEvent<HTMLElement>){
@@ -68,19 +81,29 @@ function TopPart(){
           const menuMobileElements:HTMLElement | null = document.querySelector(".navbar__menu-mobile-elements__container");
           const menuMobile:HTMLElement | null= document.querySelector(".navbar__menu-burguer");
           if(menuMobile != null) menuMobile.style.display = "flex";
-          if(menuMobileElements != null) menuMobileElements.style.display = "none";   
+          if(menuMobileElements != null){
+               menuMobileElements.classList.add("animation--quit-menu-mobile");
+               menuMobileElements.style.display = "none";  
+               menuMobileElements.classList.remove("animation--quit-menu-mobile");
+               
+          }
+
+          
      }
 
      useEffect(() => {
           function handleResize(){
-               if(window.innerWidth < 961){
+               const menuMobile:HTMLElement | null= document.querySelector(".navbar__menu-burguer");
+               const menuMobileElements:HTMLElement | null = document.querySelector(".navbar__menu-mobile-elements__container");
+                    
+               if(window.innerWidth <= 960){
                     setShowMenuMobileElements(true);
-                    const menuMobile:any = document.querySelector(".navbar__menu-burguer");
-                    menuMobile.style.display = "flex";
-               }else{
+                    if(menuMobile != null) menuMobile.style.display = "flex";
+                    
+               }else if(window.innerWidth > 961){
                     setShowMenuMobileElements(false);
-                    const menuMobileElements:any = document.querySelector(".navbar__menu-mobile-elements__container");
-                    menuMobileElements.style.display = "none";
+                    if(menuMobile != null) menuMobile.style.display = "none";
+                    if(menuMobileElements != null) menuMobileElements.style.display = "none";
                }
           }
           handleResize();
@@ -88,7 +111,7 @@ function TopPart(){
           return () => {
             window.removeEventListener('resize', handleResize);
           };
-     },[]);
+     },[showMenuMobileElements]);
      
      return(
           <div className="top-part" id="home">
@@ -118,7 +141,7 @@ function TopPart(){
                               transition={{ delay: 0.1, duration: 0.5 }}
                               variants={{
                               hidden: { opacity: 0, x: 20 },
-                              visible: { opacity: 0.5, x: 0 },
+                              visible: { opacity: 0.7, x: 0 },
                               }}
                          >
                               <ul className="navbar__menu-mobile-elements__list">
