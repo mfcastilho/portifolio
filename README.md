@@ -43,5 +43,5 @@ Contribuições são bem-vindas! Se você encontrar algum problema no projeto ou
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License](https://github.com/mfcastilho/portifolio-one-oracle-next-education/blob/master/LICENSE).
 
