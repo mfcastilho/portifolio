@@ -61,7 +61,9 @@ function TopPart(){
           } 
           
           setTimeout(()=>{
+          if(window.innerWidth <= 960){
                if(menuMobile != null) menuMobile.style.display = "flex";
+          }
           },300)
             
      }
