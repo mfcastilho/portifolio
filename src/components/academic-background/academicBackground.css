@@ -1,6 +1,7 @@
 
 .academic-background {
      width: 100%;
+     min-width: 100vh;
      min-width: 37.7rem;
      opacity: .8;
      font-family: 'Poppins', sans-serif;

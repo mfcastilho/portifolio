@@ -1,6 +1,7 @@
 .skills{
      width: 100%;
      min-width: 37.7rem;
+     min-height: 100vh;
      opacity: .8;
      font-family: 'Poppins', sans-serif;
      display: flex;

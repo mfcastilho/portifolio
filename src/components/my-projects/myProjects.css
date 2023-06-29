@@ -2,6 +2,7 @@
 .my-projects {
      width: 100%;
      min-width: 37.7rem;
+     min-height: 100vh;
      font-family: 'Poppins', sans-serif;
      display: flex;
      flex-direction: column;
