@@ -1,4 +1,4 @@
-# Portfolio do Mario Frederico
+# Portifólio 
 
 Este é o meu portfólio pessoal, criado como parte do Challenge ONE do programa One Oracle Next Education.
 
